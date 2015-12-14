@@ -1,0 +1,13 @@
+# Site settings
+title: Conda's Blog
+email: kehao.wu@gmail.com
+description: 原新浪博主Conda http://blog.sina.com.cn/wherefree。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.how-to-code.info" # the base hostname & protocol for your site
+twitter_username: kehaow
+github_username: kehaowu
+permalink: none
+# Build settings
+markdown: kramdown
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"

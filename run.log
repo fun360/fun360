@@ -1,0 +1,8 @@
+Configuration file: /home/conda/how-to-code-blog/_config.yml
+            Source: /home/conda/how-to-code-blog
+       Destination: /home/conda/how-to-code-blog/_site
+ Incremental build: enabled
+      Generating... 
+[31m             ERROR: YOUR SITE COULD NOT BE BUILT:[0m
+[31m                    ------------------------------------[0m
+[31m                    Invalid date '2015-08-123 22:39:32': Post '_posts/RESTful/2015-08-23-restful-api-development.markdown' does not have a valid date in the YAML front matter.[0m

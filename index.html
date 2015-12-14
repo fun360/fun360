@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">最新文章</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2 class="post-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta"><a href="{{ post.url | prepend: site.baseurl }}" class="post-read-full">阅读全文<smalL>>></small> </a>{{ post.date | date: "%Y年%m月%d日 %H:%M:%S" }} 作者：{{ post.author }}</span>
+        <hr>
+      </li>
+    {% endfor %}
+  </ul>
+
+  
+
+</div>
