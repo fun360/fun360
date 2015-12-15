@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "如何在VirtualBox上安装Centos7(带samba服务器)"
-date:   2015-08-15 12:13:00
-author: 吴珂皓
+title:  "Failed to open/create the internal network 'HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter'"
+date:   2015-12-15 12:13:00
+author: StackOverFlow
 categories: linux
-keywords: VirtualBox, Centos7, samba, Linux
-excerpt: 怎样在VirtualBox上安装Centos7服务器，并且配置好samba服务
+keywords: VirtualBox, Centos7
 ---
 I upgraded my Windows 10 to the last update yesterday and now, when I launch  vagrant up command I have this error :
 
