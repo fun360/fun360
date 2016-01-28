@@ -3982,7 +3982,7 @@ tbody.collapse.in {
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
-      content: "/ ";
+      content: "/聽";
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {

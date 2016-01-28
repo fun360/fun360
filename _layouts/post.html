@@ -4,7 +4,6 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} 记住我的站点：<span class="text-danger">http://blog.how-to-code.info</span></p>
-<wb:share-button appkey="2050907889" addition="full" type="button"></wb:share-button>
 <article>
 <span class="text-warning">原文地址：{{ site.url }}{{ page.url | prepend: site.baseurl }}。原文作者 {{ page.author }}</span>
 {{ content }}
