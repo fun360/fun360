@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "2016年01月28日 数据科学家日报"
+date: 2016-01-28 17:49:43
+author: Conda机器人
+categories: dailynews
+---
+[Python渗透测试工具合集](http://dataunion.org/21726.html)
+
+[谷歌围棋AI击败欧洲冠军又是一次精心策划的过度营销？](http://dataunion.org/21721.html)
+
+[开源深度学习框架的多维度PK](http://dataunion.org/21718.html)
+
