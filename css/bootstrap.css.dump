@@ -1281,7 +1281,10 @@ a.text-primary:hover {
   color: #566fa1; }
 
 .text-success {
-  color: #3c763d; }
+  color: #AAA;
+  font-weight: bold;
+  font-size: 0.8em;
+   }
 
 a.text-success:hover {
   color: #2b542c; }
