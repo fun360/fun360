@@ -67,3 +67,10 @@ footer {
 .ad-right-side {
   height:100%;
 }
+
+.share {
+  margin-left: 30px;
+  padding: 0.3em;
+  background-color: #CCC;
+  border-radius: 3px;
+}
