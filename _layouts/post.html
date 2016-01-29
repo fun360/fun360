@@ -6,5 +6,8 @@ layout: default
 <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} 记住我的站点：<span class="text-success">http://www.how-to-code.info</span></p>
 <article>
 {{ content }}
-<span class="text-success">原文地址：{{ site.url }}{{ page.url | prepend: site.baseurl }}。原文作者 {{ page.author }}</span>
+<div class="reference">
+<a class="text-success" href = "{{ site.url }}{{ page.url | prepend: site.baseurl }}">原文地址：{{ site.url }}{{ page.url | prepend: site.baseurl }}</a><br/>
+<a class="text-success" href = "http://www.how-to-code.info">原文作者：{{ page.author }}</a>
+</div>
 </article>

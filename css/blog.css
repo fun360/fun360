@@ -74,3 +74,13 @@ footer {
   background-color: #CCC;
   border-radius: 3px;
 }
+
+.reference {
+  background-color: #DDD;
+  border-radius: 3px;
+  padding: 0.3em
+}
+
+.reference > a, .reference > a:visited {
+  color: #FFF;
+}
