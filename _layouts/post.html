@@ -10,7 +10,10 @@ layout: default
 <div>
 <wb:livestream color="758AB5,758AB5,758AB5,111111,F0F1F3,F0F1F3" appkey="2050907889" topic="%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6|%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6" width="auto" listid="3936776559157360" uid="1077585930" height="500" ></wb:livestream>
 </div>
-
+<div class="reference">
+<a class="text-success" href = "{{ site.url }}{{ page.url | prepend: site.baseurl }}">原文地址：{{ site.url }}{{ page.url | prepend: site.baseurl }}</a><br/>
+<a class="text-success" href = "http://www.how-to-code.info">原文作者：{{ page.author }}</a>
+</div>
 <!-- 多说评论框 start -->
     <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="http://www.how-to-code.com{{ page.url }}"></div>
 <!-- 多说评论框 end -->
@@ -28,9 +31,4 @@ var duoshuoQuery = {short_name:"condablog"};
     </script>
 <!-- 多说公共JS代码 end -->
 
-
-<div class="reference">
-<a class="text-success" href = "{{ site.url }}{{ page.url | prepend: site.baseurl }}">原文地址：{{ site.url }}{{ page.url | prepend: site.baseurl }}</a><br/>
-<a class="text-success" href = "http://www.how-to-code.info">原文作者：{{ page.author }}</a>
-</div>
 </article>
