@@ -6,6 +6,29 @@ layout: default
 <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} 记住我的站点：<span class="text-success">http://www.how-to-code.info</span></p>
 <article>
 {{ content }}
+
+<div>
+<wb:livestream color="758AB5,758AB5,758AB5,111111,F0F1F3,F0F1F3" appkey="2050907889" topic="%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6|%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6" width="auto" listid="3936776559157360" uid="1077585930" height="500" ></wb:livestream>
+</div>
+
+<!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="请将此处替换成文章在你的站点中的ID" data-title="请替换成文章的标题" data-url="请替换成文章的网址"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"condablog"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+<!-- 多说公共JS代码 end -->
+
+
 <div class="reference">
 <a class="text-success" href = "{{ site.url }}{{ page.url | prepend: site.baseurl }}">原文地址：{{ site.url }}{{ page.url | prepend: site.baseurl }}</a><br/>
 <a class="text-success" href = "http://www.how-to-code.info">原文作者：{{ page.author }}</a>
