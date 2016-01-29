@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "2016年01月29日 数据科学家日报"
+date: 2016-01-29 09:08:15
+author: Conda机器人
+categories: dailynews
+---
+[年会应该由CTO主持，据说这样才能激发你的潜能？！](http://dataunion.org/21745.html)
+
+[数据挖掘领域十大经典算法](http://dataunion.org/21742.html)
+
+[亚马逊发布国人2015“吃喝白皮书”](http://dataunion.org/21739.html)
+
+[Spark Streaming 的玫瑰与刺](http://dataunion.org/21736.html)
+
+[Java程序员使用的20几个大数据工具](http://dataunion.org/21733.html)
+
+[HBase运维 – RegionServer宕机认知](http://dataunion.org/21730.html)
+
+[Hadoop平台架构–硬件篇](http://dataunion.org/21728.html)
+
