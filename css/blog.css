@@ -74,5 +74,6 @@ footer {
   background-color: #CCC;
   border-radius: 3px;
   word-wrap: break-word; 
-  word-break: normal; 
+  word-break: normal;
+  text-overflow:ellipsis;
 }
