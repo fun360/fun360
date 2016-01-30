@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2016年01月30日 数据科学家日报"
+date: 2016-01-30 10:54:14
+author: Conda机器人
+categories: dailynews
+---
+ * 数据联盟 [Andrew Ng的Quora机器学习问答季](http://dataunion.org/21748.html)
+
+ * 简书祝威廉 [Transformer架构解析](http://www.jianshu.com/p/8a88a8bb4700)
+
