@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016年01月31日 数据科学家日报"
-date: 2016-01-31 12:39:06
+date: 2016-01-31 13:22:05
 author: Conda机器人
 categories: dailynews
 ---
@@ -77,23 +77,23 @@ categories: dailynews
 
  * info Q [架构师（10月刊）](http://www.infoq.com/cn/minibooks/architect-oct-10-2011)
 
- * 数据联盟 [近200篇机器学习&深度学习资料分享](http://www.dataunion.orghttp://dataunion.org/21453.html)
+ * 数据联盟 [近200篇机器学习&深度学习资料分享](http://dataunion.org/21453.html)
 
- * 数据联盟 [猴年春晚：“六小龄童”的营销风云](http://www.dataunion.orghttp://dataunion.org/21755.html)
+ * 数据联盟 [猴年春晚：“六小龄童”的营销风云](http://dataunion.org/21755.html)
 
- * 数据联盟 [2015全球十大最具潜力开源项目](http://www.dataunion.orghttp://dataunion.org/21751.html)
+ * 数据联盟 [2015全球十大最具潜力开源项目](http://dataunion.org/21751.html)
 
- * 数据联盟 [Andrew Ng的Quora机器学习问答季](http://www.dataunion.orghttp://dataunion.org/21748.html)
+ * 数据联盟 [Andrew Ng的Quora机器学习问答季](http://dataunion.org/21748.html)
 
- * 数据联盟 [年会应该由CTO主持，据说这样才能激发你的潜能？！](http://www.dataunion.orghttp://dataunion.org/21745.html)
+ * 数据联盟 [年会应该由CTO主持，据说这样才能激发你的潜能？！](http://dataunion.org/21745.html)
 
- * 数据联盟 [数据挖掘领域十大经典算法](http://www.dataunion.orghttp://dataunion.org/21742.html)
+ * 数据联盟 [数据挖掘领域十大经典算法](http://dataunion.org/21742.html)
 
- * 数据联盟 [亚马逊发布国人2015“吃喝白皮书”](http://www.dataunion.orghttp://dataunion.org/21739.html)
+ * 数据联盟 [亚马逊发布国人2015“吃喝白皮书”](http://dataunion.org/21739.html)
 
- * 数据联盟 [Spark Streaming 的玫瑰与刺](http://www.dataunion.orghttp://dataunion.org/21736.html)
+ * 数据联盟 [Spark Streaming 的玫瑰与刺](http://dataunion.org/21736.html)
 
- * 数据联盟 [Java程序员使用的20几个大数据工具](http://www.dataunion.orghttp://dataunion.org/21733.html)
+ * 数据联盟 [Java程序员使用的20几个大数据工具](http://dataunion.org/21733.html)
 
  * 简书 祝威廉 [Transformer架构解析](http://www.jianshu.com/p/8a88a8bb4700)
 
@@ -112,4 +112,118 @@ categories: dailynews
  * 简书 祝威廉 [Spark sc.textFile(...).map(...).count() 执行完整流程](http://www.jianshu.com/p/1279b4029bae)
 
  * 简书 祝威廉 [Spark 动态资源分配(Dynamic Resource Allocation) 解析](http://www.jianshu.com/p/79ebdb1dbaff)
+
+ * 伯乐在线 [谷歌背后的数学](http://blog.jobbole.com/97823/)
+
+ * 伯乐在线 [最适合和最不适合新手使用的几款 Linux 发行版](http://blog.jobbole.com/97821/)
+
+ * 伯乐在线 [程序员到底有多累，有多辛苦？](http://blog.jobbole.com/92783/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.5）：定制 type Formatters](http://blog.jobbole.com/97780/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.4）：定制 PropertyEditors](http://blog.jobbole.com/97777/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.3）：定制HTTP消息转换器](http://blog.jobbole.com/97772/)
+
+ * 伯乐在线 [数据库集群技术漫谈](http://blog.jobbole.com/97806/)
+
+ * 伯乐在线 [「终结者」机器人这是要帮人做家务了么？](http://blog.jobbole.com/97736/)
+
+ * 伯乐在线 [作为一名83岁的长者，我开发了一款游戏App](http://blog.jobbole.com/97793/)
+
+ * 伯乐在线 [白话 PHP7 扩展开发：创建对象](http://blog.jobbole.com/97790/)
+
+ * 伯乐在线 [从零开始创建一个 PHP 扩展](http://blog.jobbole.com/97786/)
+
+ * 伯乐在线 [LVS 三种负载均衡方式比较](http://blog.jobbole.com/97783/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.2）：定制拦截器](http://blog.jobbole.com/97763/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.1）：定制 servlet filters](http://blog.jobbole.com/97760/)
+
+ * 伯乐在线 [2015年在微信热传的100+经典技术文章](http://blog.jobbole.com/97515/)
+
+ * 伯乐在线 [太阳能驱动的集水瓶，可将空气转成饮用水](http://blog.jobbole.com/97514/)
+
+ * 伯乐在线 [脊髓损伤的重大医学突破竟然源于一个计算机程序](http://blog.jobbole.com/97651/)
+
+ * 伯乐在线 [这个「疯子」在水下朝自己开枪](http://blog.jobbole.com/97504/)
+
+ * 伯乐在线 [PHP 调试利器之 PHPDBG](http://blog.jobbole.com/97714/)
+
+ * 伯乐在线 [不骑之时，平衡车变形成可爱的机器人](http://blog.jobbole.com/97484/)
+
+ * 阮一峰的网络日志 [白领的消亡](http://www.ruanyifeng.com/blog/2016/01/white-collar.html)
+
+ * 阮一峰的网络日志 [npm 模块安装机制简介](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
+
+ * 阮一峰的网络日志 [《ES6 标准入门》（第二版）出版了](http://www.ruanyifeng.com/blog/2016/01/ecmascript-6-primer.html)
+
+ * 阮一峰的网络日志 [更多的人死于心碎](http://www.ruanyifeng.com/blog/2016/01/ian-murdock.html)
+
+ * 阮一峰的网络日志 [Flux 架构入门教程](http://www.ruanyifeng.com/blog/2016/01/flux.html)
+
+ * 阮一峰的网络日志 [世界第一个机器人](http://www.ruanyifeng.com/blog/2016/01/first-robot.html)
+
+ * 阮一峰的网络日志 [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+
+ * segmentfault [在 Node.js 中利用 js-xlsx 处理 Excel 文件](http://segmentfault.com/a/1190000004395728)
+
+ * segmentfault [用node.js实现验证码简单识别](http://segmentfault.com/a/1190000004395507)
+
+ * segmentfault [设置 Mac 下文件的默认打开程序 — duti 详解](http://segmentfault.com/a/1190000004395085)
+
+ * segmentfault [移动端 h5开发相关内容总结(三)](http://segmentfault.com/a/1190000004395020)
+
+ * segmentfault [JavaScript中的严格模式](http://segmentfault.com/a/1190000004394829)
+
+ * segmentfault [使用ES6开发流程](http://segmentfault.com/a/1190000004394726)
+
+ * segmentfault [响应式布局入门之——侧栏菜单](http://segmentfault.com/a/1190000004394349)
+
+ * segmentfault [Vue.js - 基础原理](http://segmentfault.com/a/1190000004221918)
+
+ * segmentfault [SVG (一)  图形, 路径, 变换总结; 以及椭圆弧线, 贝塞尔曲线的详细解释](http://segmentfault.com/a/1190000004393817)
+
+ * segmentfault [SpringDataRedis事务处理](http://segmentfault.com/a/1190000004393573)
+
+ * segmentfault [CSS 变换（Transform）和动画（Animation）](http://segmentfault.com/a/1190000004392988)
+
+ * segmentfault [[单刷APUE系列]第三章——文件I/O](http://segmentfault.com/a/1190000004392560)
+
+ * segmentfault [Android自动化测试-从入门到入门（5）AdapterView的测试](http://segmentfault.com/a/1190000004392396)
+
+ * segmentfault [在yog2框架中自建模块，以实现socket.io与express共享session中间件](http://segmentfault.com/a/1190000004392232)
+
+ * segmentfault [Flux用过了，Redux也用过了，还是觉得不顺手？要不要自己造一个？](http://segmentfault.com/a/1190000004391958)
+
+ * segmentfault [更丰富的网页多图层效果：css混合模式](http://segmentfault.com/a/1190000004391765)
+
+ * segmentfault [浮动的一些探究](http://segmentfault.com/a/1190000004391587)
+
+ * segmentfault [Java进阶1 —— 对象的创建与销毁](http://segmentfault.com/a/1190000004390247)
+
+ * segmentfault [SpringBoot应用之分布式缓存](http://segmentfault.com/a/1190000004389938)
+
+ * segmentfault [正则之基本入门](http://segmentfault.com/a/1190000004389850)
+
+ * 酷壳 [让我们来谈谈分工](http://coolshell.cn/articles/17295.html)
+
+ * 酷壳 [Cuckoo Filter：设计与实现](http://coolshell.cn/articles/17225.html)
+
+ * 酷壳 [Docker基础技术：DeviceMapper](http://coolshell.cn/articles/17200.html)
+
+ * 酷壳 [Docker基础技术：AUFS](http://coolshell.cn/articles/17061.html)
+
+ * 酷壳 [Docker基础技术：Linux CGroup](http://coolshell.cn/articles/17049.html)
+
+ * 酷壳 [Docker基础技术：Linux Namespace（上）](http://coolshell.cn/articles/17010.html)
+
+ * 酷壳 [Docker基础技术：Linux Namespace（下）](http://coolshell.cn/articles/17029.html)
+
+ * 酷壳 [关于移动端的钓鱼式攻击](http://coolshell.cn/articles/17066.html)
+
+ * 酷壳 [Linus：为何对象引用计数必须是原子的](http://coolshell.cn/articles/16910.html)
+
+ * 酷壳 [DHH 谈混合移动应用开发](http://coolshell.cn/articles/12225.html)
 
