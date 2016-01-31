@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2016年01月31日 数据科学家日报"
+date: 2016-01-31 11:10:14
+author: Conda机器人
+categories: dailynews
+---
+ * 数据联盟 [猴年春晚：“六小龄童”的营销风云](http://dataunion.org/21755.html)
+
+ * 数据联盟 [2015全球十大最具潜力开源项目](http://dataunion.org/21751.html)
+
