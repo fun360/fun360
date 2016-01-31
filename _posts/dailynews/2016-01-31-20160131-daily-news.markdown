@@ -1,11 +1,115 @@
 ---
 layout: post
 title:  "2016年01月31日 数据科学家日报"
-date: 2016-01-31 11:10:14
+date: 2016-01-31 12:21:36
 author: Conda机器人
 categories: dailynews
 ---
- * 数据联盟 [猴年春晚：“六小龄童”的营销风云](http://dataunion.org/21755.html)
+ * info Q [Hadoop之父祝贺黄色小象十岁生日快乐](http://www.infoq.com/cn/news/2016/01/hadoop-ten-years-Doug)
 
- * 数据联盟 [2015全球十大最具潜力开源项目](http://dataunion.org/21751.html)
+ * info Q [Hazelcast Version 3.6增强了性能和云管理功能](http://www.infoq.com/cn/news/2016/01/Hazelcast-3.6-Performance-Cloud)
+
+ * info Q [雅虎开源可以提升流操作速度的DataSketches](http://www.infoq.com/cn/news/2016/01/Yahoo-open-sources-data-sketches)
+
+ * info Q [提高公有云安全性的工具汇总](http://www.infoq.com/cn/news/2016/01/improve-safety-tools-public-clou)
+
+ * info Q [架构周报：Google和eBay构建微服务经验](http://www.infoq.com/cn/news/2016/01/arch-weekly-google)
+
+ * info Q [听Riley Newman说Airbnb是如何使用数据科学的](http://www.infoq.com/cn/news/2016/01/airbnb-data-science)
+
+ * info Q [Uber令人惊讶的大数据使用方式](http://www.infoq.com/cn/news/2016/01/Uber-big-data-used)
+
+ * info Q [Spark 1.6发布：引入Dataset接口](http://www.infoq.com/cn/news/2016/01/spark-16-release)
+
+ * info Q [如何快速打造探索分析和深度分析的大数据平台](http://www.infoq.com/cn/presentations/build-big-data-platform-of-explore-and-depth-analysis)
+
+ * info Q [初创公司构建数据分析平台](http://www.infoq.com/cn/presentations/start-up-companies-build-data-analysis-platform)
+
+ * info Q [大数据复杂风控模型在PayPal Risk的应用](http://www.infoq.com/cn/presentations/practise-of-big-data-complex-wind-control-model-in-paypal-risk)
+
+ * info Q [Twitter Heron: Streaming at Scale](http://www.infoq.com/cn/presentations/twitter-heron-streaming-at-scale)
+
+ * info Q [开源大数据在Facebook与Dropbox的实践](http://www.infoq.com/cn/presentations/practise-of-open-source-big-data-in-facebook-dropbox)
+
+ * info Q [探索 React 生态圈](http://www.infoq.com/cn/presentations/explore-react-ecosystem)
+
+ * info Q [基础设施建设实战：云之大数据平台架构设计](http://www.infoq.com/cn/presentations/big-data-cloud-platform-architecture-design)
+
+ * info Q [大数据技术的回顾与展望  ——写在Hadoop十周年纪念](http://www.infoq.com/cn/articles/review-and-prospec-of-big-data-technology)
+
+ * info Q [推荐系统和搜索引擎的关系](http://www.infoq.com/cn/articles/recommendation-and-searchengine)
+
+ * info Q [文本数据的机器学习自动分类方法(上)](http://www.infoq.com/cn/articles/machine-learning-automatic-classification-of-text-data)
+
+ * info Q [经典大数据架构案例：酷狗音乐的大数据平台重构](http://www.infoq.com/cn/articles/kugou-big-data-platform-restructure)
+
+ * info Q [通过MS SQL列存储索引实现大数据解决方案](http://www.infoq.com/cn/articles/SQL-Server-ColumnStore)
+
+ * info Q [解读2015之大数据篇：大数据的黄金时代](http://www.infoq.com/cn/articles/2015-Review-Bigdata)
+
+ * info Q [解读2015之Spark篇：新生态系统的形成](http://www.infoq.com/cn/articles/2015-Review-Spark)
+
+ * info Q [Apache Ignite(三)：核心特性之大数据处理、客户端和部署](http://www.infoq.com/cn/articles/apache-ignite-part03)
+
+ * info Q [杨威：明略大数据运作模式](http://www.infoq.com/cn/interviews/interview-with-yangwei-talk-mininglamp-big-data-operation-pattern)
+
+ * info Q [TalkingData 肖文峰：移动大数据技术团队的高效敏捷进化之旅](http://www.infoq.com/cn/interviews/interview-with-xiaowenfeng-talk-mobile-big-data-technology-team)
+
+ * info Q [明略数据副总裁：金融大数据平台必须保证安全性与实时性](http://www.infoq.com/cn/interviews/interview-with-zhouweitian-talk-financial-big-data-platform)
+
+ * info Q [云智慧CEO：APM技术难点在于前端数据采集与后端数据分析的结合](http://www.infoq.com/cn/interviews/interview-cloudwise-ceo)
+
+ * info Q [明略数据CTO：做国内最全面的大数据解决方案供应商](http://www.infoq.com/cn/interviews/interview-with-semidata-cto)
+
+ * info Q [LinkedIn之外的选择：基于大数据的人才招聘](http://www.infoq.com/cn/interviews/linkedin-outside-options-recruitment-based-on-large-data)
+
+ * info Q [如何应对大数据应用在存储和展示方面的挑战](http://www.infoq.com/cn/interviews/challenges-large-data-applications-in-storage-and-display-challenges)
+
+ * info Q [英特尔夏俊鸾谈基于内存的大数据处理框架Spark](http://www.infoq.com/cn/interviews/large-data-processing-framework-based-on-memory)
+
+ * info Q [架构师（2015年7月）](http://www.infoq.com/cn/minibooks/architect-201507)
+
+ * info Q [中国顶尖技术团队访谈录·第二季](http://www.infoq.com/cn/minibooks/toptech02)
+
+ * info Q [架构师（2015年1月）](http://www.infoq.com/cn/minibooks/architect-201501)
+
+ * info Q [NoSQL精粹](http://www.infoq.com/cn/minibooks/nosql-distilled)
+
+ * info Q [架构师（10月刊）](http://www.infoq.com/cn/minibooks/architect-oct-10-2011)
+
+ * 数据联盟 [近200篇机器学习&深度学习资料分享](http://www.dataunion.orghttp://dataunion.org/21453.html)
+
+ * 数据联盟 [猴年春晚：“六小龄童”的营销风云](http://www.dataunion.orghttp://dataunion.org/21755.html)
+
+ * 数据联盟 [2015全球十大最具潜力开源项目](http://www.dataunion.orghttp://dataunion.org/21751.html)
+
+ * 数据联盟 [Andrew Ng的Quora机器学习问答季](http://www.dataunion.orghttp://dataunion.org/21748.html)
+
+ * 数据联盟 [年会应该由CTO主持，据说这样才能激发你的潜能？！](http://www.dataunion.orghttp://dataunion.org/21745.html)
+
+ * 数据联盟 [数据挖掘领域十大经典算法](http://www.dataunion.orghttp://dataunion.org/21742.html)
+
+ * 数据联盟 [亚马逊发布国人2015“吃喝白皮书”](http://www.dataunion.orghttp://dataunion.org/21739.html)
+
+ * 数据联盟 [Spark Streaming 的玫瑰与刺](http://www.dataunion.orghttp://dataunion.org/21736.html)
+
+ * 数据联盟 [Java程序员使用的20几个大数据工具](http://www.dataunion.orghttp://dataunion.org/21733.html)
+
+ * 简书 祝威廉 [Transformer架构解析](http://www.jianshu.com/p/8a88a8bb4700)
+
+ * 简书 祝威廉 [看不到服务器的年代，一个新的时代](http://www.jianshu.com/p/15c3172c4f0c)
+
+ * 简书 祝威廉 [用机器学习流程去建模我们的平台架构](http://www.jianshu.com/p/952610d476fb)
+
+ * 简书 祝威廉 [Kafka Zero-Copy 使用分析](http://www.jianshu.com/p/d47de3d6d8ac)
+
+ * 简书 祝威廉 [那些自带情话的照片](http://www.jianshu.com/p/6dd61178103a)
+
+ * 简书 祝威廉 [工作迷思](http://www.jianshu.com/p/287c74eb9f3e)
+
+ * 简书 祝威廉 [这些年，我工作上走过的路](http://www.jianshu.com/p/9e0aba6eaaa1)
+
+ * 简书 祝威廉 [Spark sc.textFile(...).map(...).count() 执行完整流程](http://www.jianshu.com/p/1279b4029bae)
+
+ * 简书 祝威廉 [Spark 动态资源分配(Dynamic Resource Allocation) 解析](http://www.jianshu.com/p/79ebdb1dbaff)
 
