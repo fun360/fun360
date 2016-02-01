@@ -1,0 +1,239 @@
+---
+layout: post
+title:  "2016年02月01日 数据科学家日报"
+date: 2016-02-01 10:11:17
+author: Conda机器人
+categories: dailynews
+---
+ * info Q [基于数据同步的云服务架构实践](http://www.infoq.com/cn/presentations/cloud-services-architecture-practice-bsed-on-data-synchronization)
+
+ * info Q [如何快速打造探索分析和深度分析的大数据平台](http://www.infoq.com/cn/presentations/build-big-data-platform-of-explore-and-depth-analysis)
+
+ * info Q [初创公司构建数据分析平台](http://www.infoq.com/cn/presentations/start-up-companies-build-data-analysis-platform)
+
+ * info Q [大数据复杂风控模型在PayPal Risk的应用](http://www.infoq.com/cn/presentations/practise-of-big-data-complex-wind-control-model-in-paypal-risk)
+
+ * info Q [Twitter Heron: Streaming at Scale](http://www.infoq.com/cn/presentations/twitter-heron-streaming-at-scale)
+
+ * info Q [开源大数据在Facebook与Dropbox的实践](http://www.infoq.com/cn/presentations/practise-of-open-source-big-data-in-facebook-dropbox)
+
+ * info Q [探索 React 生态圈](http://www.infoq.com/cn/presentations/explore-react-ecosystem)
+
+ * info Q [Hadoop之父祝贺黄色小象十岁生日快乐](http://www.infoq.com/cn/news/2016/01/hadoop-ten-years-Doug)
+
+ * info Q [Hazelcast Version 3.6增强了性能和云管理功能](http://www.infoq.com/cn/news/2016/01/Hazelcast-3.6-Performance-Cloud)
+
+ * info Q [雅虎开源可以提升流操作速度的DataSketches](http://www.infoq.com/cn/news/2016/01/Yahoo-open-sources-data-sketches)
+
+ * info Q [提高公有云安全性的工具汇总](http://www.infoq.com/cn/news/2016/01/improve-safety-tools-public-clou)
+
+ * info Q [架构周报：Google和eBay构建微服务经验](http://www.infoq.com/cn/news/2016/01/arch-weekly-google)
+
+ * info Q [听Riley Newman说Airbnb是如何使用数据科学的](http://www.infoq.com/cn/news/2016/01/airbnb-data-science)
+
+ * info Q [Uber令人惊讶的大数据使用方式](http://www.infoq.com/cn/news/2016/01/Uber-big-data-used)
+
+ * info Q [Spark 1.6发布：引入Dataset接口](http://www.infoq.com/cn/news/2016/01/spark-16-release)
+
+ * info Q [大数据技术的回顾与展望  ——写在Hadoop十周年纪念](http://www.infoq.com/cn/articles/review-and-prospec-of-big-data-technology)
+
+ * info Q [推荐系统和搜索引擎的关系](http://www.infoq.com/cn/articles/recommendation-and-searchengine)
+
+ * info Q [文本数据的机器学习自动分类方法(上)](http://www.infoq.com/cn/articles/machine-learning-automatic-classification-of-text-data)
+
+ * info Q [经典大数据架构案例：酷狗音乐的大数据平台重构](http://www.infoq.com/cn/articles/kugou-big-data-platform-restructure)
+
+ * info Q [通过MS SQL列存储索引实现大数据解决方案](http://www.infoq.com/cn/articles/SQL-Server-ColumnStore)
+
+ * info Q [解读2015之大数据篇：大数据的黄金时代](http://www.infoq.com/cn/articles/2015-Review-Bigdata)
+
+ * info Q [解读2015之Spark篇：新生态系统的形成](http://www.infoq.com/cn/articles/2015-Review-Spark)
+
+ * info Q [Apache Ignite(三)：核心特性之大数据处理、客户端和部署](http://www.infoq.com/cn/articles/apache-ignite-part03)
+
+ * info Q [杨威：明略大数据运作模式](http://www.infoq.com/cn/interviews/interview-with-yangwei-talk-mininglamp-big-data-operation-pattern)
+
+ * info Q [TalkingData 肖文峰：移动大数据技术团队的高效敏捷进化之旅](http://www.infoq.com/cn/interviews/interview-with-xiaowenfeng-talk-mobile-big-data-technology-team)
+
+ * info Q [明略数据副总裁：金融大数据平台必须保证安全性与实时性](http://www.infoq.com/cn/interviews/interview-with-zhouweitian-talk-financial-big-data-platform)
+
+ * info Q [云智慧CEO：APM技术难点在于前端数据采集与后端数据分析的结合](http://www.infoq.com/cn/interviews/interview-cloudwise-ceo)
+
+ * info Q [明略数据CTO：做国内最全面的大数据解决方案供应商](http://www.infoq.com/cn/interviews/interview-with-semidata-cto)
+
+ * info Q [LinkedIn之外的选择：基于大数据的人才招聘](http://www.infoq.com/cn/interviews/linkedin-outside-options-recruitment-based-on-large-data)
+
+ * info Q [如何应对大数据应用在存储和展示方面的挑战](http://www.infoq.com/cn/interviews/challenges-large-data-applications-in-storage-and-display-challenges)
+
+ * info Q [英特尔夏俊鸾谈基于内存的大数据处理框架Spark](http://www.infoq.com/cn/interviews/large-data-processing-framework-based-on-memory)
+
+ * info Q [架构师（2015年7月）](http://www.infoq.com/cn/minibooks/architect-201507)
+
+ * info Q [中国顶尖技术团队访谈录·第二季](http://www.infoq.com/cn/minibooks/toptech02)
+
+ * info Q [架构师（2015年1月）](http://www.infoq.com/cn/minibooks/architect-201501)
+
+ * info Q [NoSQL精粹](http://www.infoq.com/cn/minibooks/nosql-distilled)
+
+ * info Q [架构师（10月刊）](http://www.infoq.com/cn/minibooks/architect-oct-10-2011)
+
+ * 数据联盟 [近200篇机器学习&深度学习资料分享](http://www.dataunion.orghttp://dataunion.org/21453.html)
+
+ * 数据联盟 [2016年大数据专家值得期待的8件事](http://www.dataunion.orghttp://dataunion.org/21770.html)
+
+ * 数据联盟 [2016京津冀协同发展大数据](http://www.dataunion.orghttp://dataunion.org/21766.html)
+
+ * 数据联盟 [用数据告诉你如何进行社交媒体营销](http://www.dataunion.orghttp://dataunion.org/21763.html)
+
+ * 数据联盟 [驾驭机器学习的13种框架](http://www.dataunion.orghttp://dataunion.org/21761.html)
+
+ * 数据联盟 [十年回顾：Hadoop老矣，尚能饭否？](http://www.dataunion.orghttp://dataunion.org/21759.html)
+
+ * 数据联盟 [猴年春晚：“六小龄童”的营销风云](http://www.dataunion.orghttp://dataunion.org/21755.html)
+
+ * 数据联盟 [2015全球十大最具潜力开源项目](http://www.dataunion.orghttp://dataunion.org/21751.html)
+
+ * 数据联盟 [Andrew Ng的Quora机器学习问答季](http://www.dataunion.orghttp://dataunion.org/21748.html)
+
+ * 简书 祝威廉 [Transformer架构解析](http://www.jianshu.com/p/8a88a8bb4700)
+
+ * 简书 祝威廉 [看不到服务器的年代，一个新的时代](http://www.jianshu.com/p/15c3172c4f0c)
+
+ * 简书 祝威廉 [用机器学习流程去建模我们的平台架构](http://www.jianshu.com/p/952610d476fb)
+
+ * 简书 祝威廉 [Kafka Zero-Copy 使用分析](http://www.jianshu.com/p/d47de3d6d8ac)
+
+ * 简书 祝威廉 [那些自带情话的照片](http://www.jianshu.com/p/6dd61178103a)
+
+ * 简书 祝威廉 [工作迷思](http://www.jianshu.com/p/287c74eb9f3e)
+
+ * 简书 祝威廉 [这些年，我工作上走过的路](http://www.jianshu.com/p/9e0aba6eaaa1)
+
+ * 简书 祝威廉 [Spark sc.textFile(...).map(...).count() 执行完整流程](http://www.jianshu.com/p/1279b4029bae)
+
+ * 简书 祝威廉 [Spark 动态资源分配(Dynamic Resource Allocation) 解析](http://www.jianshu.com/p/79ebdb1dbaff)
+
+ * 伯乐在线 [史上最大机器学习数据集，雅虎对外开放了](http://blog.jobbole.comhttp://blog.jobbole.com/97829/)
+
+ * 伯乐在线 [谷歌背后的数学](http://blog.jobbole.comhttp://blog.jobbole.com/97823/)
+
+ * 伯乐在线 [最适合和最不适合新手使用的几款 Linux 发行版](http://blog.jobbole.comhttp://blog.jobbole.com/97821/)
+
+ * 伯乐在线 [程序员到底有多累，有多辛苦？](http://blog.jobbole.comhttp://blog.jobbole.com/92783/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.5）：定制 type Formatters](http://blog.jobbole.comhttp://blog.jobbole.com/97780/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.4）：定制 PropertyEditors](http://blog.jobbole.comhttp://blog.jobbole.com/97777/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.3）：定制HTTP消息转换器](http://blog.jobbole.comhttp://blog.jobbole.com/97772/)
+
+ * 伯乐在线 [数据库集群技术漫谈](http://blog.jobbole.comhttp://blog.jobbole.com/97806/)
+
+ * 伯乐在线 [「终结者」机器人这是要帮人做家务了么？](http://blog.jobbole.comhttp://blog.jobbole.com/97736/)
+
+ * 伯乐在线 [作为一名83岁的长者，我开发了一款游戏App](http://blog.jobbole.comhttp://blog.jobbole.com/97793/)
+
+ * 伯乐在线 [白话 PHP7 扩展开发：创建对象](http://blog.jobbole.comhttp://blog.jobbole.com/97790/)
+
+ * 伯乐在线 [从零开始创建一个 PHP 扩展](http://blog.jobbole.comhttp://blog.jobbole.com/97786/)
+
+ * 伯乐在线 [LVS 三种负载均衡方式比较](http://blog.jobbole.comhttp://blog.jobbole.com/97783/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.2）：定制拦截器](http://blog.jobbole.comhttp://blog.jobbole.com/97763/)
+
+ * 伯乐在线 [Spring Boot 学习笔记（2.1）：定制 servlet filters](http://blog.jobbole.comhttp://blog.jobbole.com/97760/)
+
+ * 伯乐在线 [2015年在微信热传的100+经典技术文章](http://blog.jobbole.comhttp://blog.jobbole.com/97515/)
+
+ * 伯乐在线 [太阳能驱动的集水瓶，可将空气转成饮用水](http://blog.jobbole.comhttp://blog.jobbole.com/97514/)
+
+ * 伯乐在线 [脊髓损伤的重大医学突破竟然源于一个计算机程序](http://blog.jobbole.comhttp://blog.jobbole.com/97651/)
+
+ * 伯乐在线 [这个「疯子」在水下朝自己开枪](http://blog.jobbole.comhttp://blog.jobbole.com/97504/)
+
+ * 伯乐在线 [PHP 调试利器之 PHPDBG](http://blog.jobbole.comhttp://blog.jobbole.com/97714/)
+
+ * 阮一峰的网络日志 [白领的消亡](http://www.ruanyifeng.comhttp://www.ruanyifeng.com/blog/2016/01/white-collar.html)
+
+ * 阮一峰的网络日志 [npm 模块安装机制简介](http://www.ruanyifeng.comhttp://www.ruanyifeng.com/blog/2016/01/npm-install.html)
+
+ * 阮一峰的网络日志 [《ES6 标准入门》（第二版）出版了](http://www.ruanyifeng.comhttp://www.ruanyifeng.com/blog/2016/01/ecmascript-6-primer.html)
+
+ * 阮一峰的网络日志 [更多的人死于心碎](http://www.ruanyifeng.comhttp://www.ruanyifeng.com/blog/2016/01/ian-murdock.html)
+
+ * 阮一峰的网络日志 [Flux 架构入门教程](http://www.ruanyifeng.comhttp://www.ruanyifeng.com/blog/2016/01/flux.html)
+
+ * 阮一峰的网络日志 [世界第一个机器人](http://www.ruanyifeng.comhttp://www.ruanyifeng.com/blog/2016/01/first-robot.html)
+
+ * 阮一峰的网络日志 [Commit message 和 Change log 编写指南](http://www.ruanyifeng.comhttp://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+
+ * segmentfault [快速排序](http://segmentfault.com/a/1190000004400908)
+
+ * segmentfault [Django REST framework的各种技巧——5.搜索](http://segmentfault.com/a/1190000004400863)
+
+ * segmentfault [「译」Android Animation in Honeycomb by Chet Haase（3.0中的动画机制）](http://segmentfault.com/a/1190000004400762)
+
+ * segmentfault [Django REST framework的各种技巧——4.Generic View](http://segmentfault.com/a/1190000004400540)
+
+ * segmentfault [广告前后端流程](http://segmentfault.com/a/1190000004400378)
+
+ * segmentfault [Django REST framework的各种技巧——3.权限](http://segmentfault.com/a/1190000004400312)
+
+ * segmentfault [fir.im Weekly - 技术人也要苦练“七十二变”](http://segmentfault.com/a/1190000004400305)
+
+ * segmentfault [android最佳实践（二）](http://segmentfault.com/a/1190000004400280)
+
+ * segmentfault [BFC的一些探究](http://segmentfault.com/a/1190000004399966)
+
+ * segmentfault [汉诺塔问题](http://segmentfault.com/a/1190000004399928)
+
+ * segmentfault [创建一个 ember-cli-addon](http://segmentfault.com/a/1190000004398992)
+
+ * segmentfault [Week4 优质文章整理](http://segmentfault.com/a/1190000004398124)
+
+ * segmentfault [Android Animation Interpolator - Android 动画插值器分析](http://segmentfault.com/a/1190000004396836)
+
+ * segmentfault [ES6探秘-Classes](http://segmentfault.com/a/1190000004396187)
+
+ * segmentfault [野蛮生长的痛(一个伪前端的2015总结)](http://segmentfault.com/a/1190000004395992)
+
+ * segmentfault [小小幻灯片](http://segmentfault.com/a/1190000004395961)
+
+ * segmentfault [在 Node.js 中利用 js-xlsx 处理 Excel 文件](http://segmentfault.com/a/1190000004395728)
+
+ * segmentfault [用node.js实现验证码简单识别](http://segmentfault.com/a/1190000004395507)
+
+ * segmentfault [设置 Mac 下文件的默认打开程序 — duti 详解](http://segmentfault.com/a/1190000004395085)
+
+ * segmentfault [移动端 h5开发相关内容总结(三)](http://segmentfault.com/a/1190000004395020)
+
+ * 酷壳 [让我们来谈谈分工](http://coolshell.cnhttp://coolshell.cn/articles/17295.html)
+
+ * 酷壳 [Cuckoo Filter：设计与实现](http://coolshell.cnhttp://coolshell.cn/articles/17225.html)
+
+ * 酷壳 [Docker基础技术：DeviceMapper](http://coolshell.cnhttp://coolshell.cn/articles/17200.html)
+
+ * 酷壳 [Docker基础技术：AUFS](http://coolshell.cnhttp://coolshell.cn/articles/17061.html)
+
+ * 酷壳 [Docker基础技术：Linux CGroup](http://coolshell.cnhttp://coolshell.cn/articles/17049.html)
+
+ * 酷壳 [Docker基础技术：Linux Namespace（上）](http://coolshell.cnhttp://coolshell.cn/articles/17010.html)
+
+ * 酷壳 [Docker基础技术：Linux Namespace（下）](http://coolshell.cnhttp://coolshell.cn/articles/17029.html)
+
+ * 酷壳 [关于移动端的钓鱼式攻击](http://coolshell.cnhttp://coolshell.cn/articles/17066.html)
+
+ * 酷壳 [Linus：为何对象引用计数必须是原子的](http://coolshell.cnhttp://coolshell.cn/articles/16910.html)
+
+ * 酷壳 [DHH 谈混合移动应用开发](http://coolshell.cnhttp://coolshell.cn/articles/12225.html)
+
+ * 统计之都 [标准正态分布函数的快速计算方法](http://cos.namehttp://cos.name/2016/01/fast-normal-cdf/)
+
+ * 统计之都 [COS沙龙第35期（北京）纪要](http://cos.namehttp://cos.name/2016/01/20160109salon/)
+
+ * 统计之都 [COS沙龙第36期（北京）纪要](http://cos.namehttp://cos.name/2016/01/20160110salon/)
+
+ * 统计之都 [《Rcpp：R与C++的无缝整合》](http://cos.namehttp://cos.name/2016/01/seamless-r-and-c-integration-with-rcpp/)
+
+ * 统计之都 [中文文本处理简要介绍](http://cos.namehttp://cos.name/2016/01/intro-to-chinese-nlp/)
+
