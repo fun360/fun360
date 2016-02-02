@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "2016年02月02日 数据科学家日报"
+date: 2016-02-02 10:11:17
+author: Conda机器人
+categories: dailynews
+---
+ * 数据联盟 [Transformer架构解析](http://dataunion.org/21657.html)
+
+ * 数据联盟 [看不到服务器的年代，一个新的时代](http://dataunion.org/21775.html)
+
