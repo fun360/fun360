@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016年02月03日 数据科学家日报"
-date: 2016-02-03 00:28:39
+date: 2016-02-03 09:09:41
 author: Conda机器人
 categories: dailynews
 ---
@@ -20,26 +20,6 @@ categories: dailynews
  * 数据联盟 [2016京津冀协同发展大数据](http://dataunion.org/21766.html)
 
 > 截至目前，北京、天津、河北三地“两会”均落下帷幕。在今年的京津冀三地政府工作报告中，京津冀协同发展都是热词，也是三地代表委员热议的话题。从最初的概念到如今的有血有肉，京津冀协同发展这一国家战略正在重塑从产业经济到文化生活的方方面面。未来，京津冀三地协同发展将有哪些新思路与新动作?回顾“十二五”北京：人均GDP增至17万美元北京地区生产总值年均增长75%，一般公共预算收入年均增长149%。人均地区生产总值由201
-
- * 数据联盟 [用数据告诉你如何进行社交媒体营销](http://dataunion.org/21763.html)
-
-> 本文作者 JohnRampton 是一名企业家、投资人、在线营销大师，热衷关注新兴公司。他是在线支付公司 Due 的创始人。John 以企业家和风投项目与投资之间的连接者角色而闻名。他最近在《创业邦》杂志举办的 “全球 50 位最具网络影响力的人” 评选中排名第二，被《时代周刊》评为营销专家。目前在美国旧金山为几家公司担任顾问。为了让你有更多的动力来扩大你的社交媒体活动，我已经收集了这方面的 25 个最不可思议的、最令人惊讶的实例
-
- * 数据联盟 [驾驭机器学习的13种框架](http://dataunion.org/21761.html)
-
-> 想大胆尝试机器学习？这些工具可以为你处理繁重的任务。驾驭机器学习的13种框架在去年，机器学习以前所未有的势头进入主流。对这股潮流起到推波助澜的不单单是成本低廉的云环境和功能更强大的GPU硬件，还有如今面向机器学习的数量激增的框架。它们都是开源框架，而更重要的是，它们旨在化解机器学习最难的部分，将其技术或方法提供给广泛的开发人员。本文介绍了13种机器学习框架，有的在去年刚出炉，有的刚修订。它们引起了我们的注
-
- * 数据联盟 [十年回顾：Hadoop老矣，尚能饭否？](http://dataunion.org/21759.html)
-
-> Hadoop，十岁生日快乐！于 2006年1月28日诞生的它改变了企业对数据的存储、处理和分析的过程，加速了大数据的发展，形成了自己的极其火爆的技术生态圈，并受到非常广泛的应用。InfoQ特别策划了系列文章，为大家梳理Hadoop这十年的变化，以及技术圈的生态状况，这是为Hadoop庆生的第一篇。一张图回顾Hadoop十年1、引子什么是大数据？大数据指的是规模超过现有数据库工具获取、存储、管理和分析能力的数据集，并同时强调并不是超过某个
-
- * 数据联盟 [猴年春晚：“六小龄童”的营销风云](http://dataunion.org/21755.html)
-
-> 2016年，我们猴年等很久的事终于有结果了，“猴年马月”来了。新年的伊始，美猴王也再“大闹天宫”，猴王六小龄童没有被约参加春晚的消息刷爆了微博和各大网站。数据说明了热度：始末是怎样的呢？话题引发大家关注，起因是六小龄童微博晒出了一张近期录节目孙悟空扮相照片，随即传出六小龄童将上猴年春晚，搭档郭富城。随后又传出春晚毙掉六小龄童的节目，而事实的真相是，春晚都没有想过要请六小龄童，是央视戏曲频道的晚会邀请了六
-
- * 数据联盟 [2015全球十大最具潜力开源项目](http://dataunion.org/21751.html)
-
-> 黑鸭（Black Duck）软件公布了一份名叫“年度开源项目新秀”的报告，介绍了由全球开源协会发起的10个最有趣、最活跃的新项目。年度开源项目新秀每 年都有上千新的开源项目问世，但只有少数能够真正的吸引我们的关注。一些项目因为利用了当前比较流行的技术而发展壮大，有一些则真正地开启了一个新的领域。很多开源项目建立的初衷是为了解决一些生产上的问题，还有一些项目则是世界各地志同道合的开发者们共同发起的一个宏伟项目。从
 
  * 伯乐在线 [从4行代码看右值引用](http://blog.jobbole.com/97841/)
 
@@ -453,22 +433,6 @@ categories: dailynews
 
 > 本教程适用于学习opengles，采用c语言。基于Android平台。 创建工程可以使用androidstudio,eclipse去创建一个工程，这里我使用命令行（Android的环境配置略）。             create android project    mkdir GlesTutorial    cd GlesTutorial    android create project target android19 name GlesTutorial path  package comrichardglestutorial activity AppActivity         jni port    mkdir jni     core c code    mkdir 
 
- * segmentfault [[单刷APUE系列]第四章——文件和目录[1]](http://segmentfault.com/a/1190000004401208)
-
->  目录        单刷APUE系列第四章——文件和目录1 stat函数族            int statconst char restrict path, struct stat restrict buf;    int fstatint fildes, struct stat buf;    int lstatconst char restrict path, struct stat restrict buf;    int fstatatint fd, const char path, struct stat buf, int flag;        The stat function obtains information about the file pointed to by path  Read, writ
-
- * segmentfault [Django REST framework的各种技巧【目录索引】](http://segmentfault.com/a/1190000004401112)
-
->  为了防止各位看同学不好找，在这边丢了个目录过来，因为以后可能继续写 目录            
-
- * segmentfault [Django REST framework的各种技巧——7.导入导出](http://segmentfault.com/a/1190000004401099)
-
->  其实这个东西跟restframework没有卵关系，顺便写在这里导入导出在cms中是一个非常常用的功能，思考做成通用的东西，最终选择djangoimportexport，虽然这玩意儿最初是想放在admin中用的，虽然用起来很繁琐，但是可以做成通用的东西，而且用起来比较像rest的serializer。djangoimportexport042  需要看的源码  cd 你的virtualenvlocallibpython27sitepackagesimportexportresourcespy  instanceloaderspy 先看用法通过view可以看到，
-
- * segmentfault [前端数据驱动的价值](http://segmentfault.com/a/1190000004400337)
-
-> 数据驱动应该是从`fluxredux`  `react`这种模式开始流行的。他的背后不仅仅是数据驱动这么简单，在复杂的系统中，我觉得它解决了一个很关键的问题就是模块间的交互通信。有很多文章拿他和mvcmvvm去比较，我个人觉得没有特别的可比性，因为解决的问题不同。 以往处理模式一个稍微复杂点的例子：假如有这么一个页面，我们按照以往模式开发，首先模块化开发，拆分成A，B，C 三个模块，然后每个模块有自己的子模块。如果需求简单还比
-
  * 我爱自然语言处理 [达观数据对于大规模消息数据处理的系统架构](http://www.52nlp.cn/datagrand-message)
 
 > 达观数据是为企业提供大数据处理、个性化推荐系统服务的知名公司，在应对海量数据处理时，积累了大量实战经验。其中达观数据在面对大量的数据交互和消息处理时，使用了称为DPIO的设计思路进行快速、稳定、可靠的消息数据传递机制，本文分享了达观数据在应对大规模消息数据处理时所开发的通讯中间件DPIO的设计思路和处理经验（达观数据架构师 桂洪冠）一、数据通讯进程模型在设计达观数据的消息数据处理机制时，首先充分借鉴了ZeroMQ
@@ -508,4 +472,40 @@ categories: dailynews
  * 我爱自然语言处理 [用MeCab打造一套实用的中文分词系统(二)](http://www.52nlp.cn/%e7%94%a8mecab%e6%89%93%e9%80%a0%e4%b8%80%e5%a5%97%e5%ae%9e%e7%94%a8%e7%9a%84%e4%b8%ad%e6%96%87%e5%88%86%e8%af%8d%e7%b3%bb%e7%bb%9f%e4%ba%8c)
 
 > 虽然是愚人节，但是这个不是愚人节玩笑，最近花了一些时间在MeCab身上，越发喜欢这个来自岛国的开源分词系统，今天花了一些时间训练了一个更适用的模型和词典，打包提供给大家使用，因为数据和词典涉及到一些版权问题，所以打包文件里只是mecab用于发布的二进制词典和模型文件，目前在mac os和linuxubuntu系统下测试无误，其他系统请自行测试使用：链接: http:panbaiducoms1sjBfdXr 密码: 8udf了解和安装mecab请参考：    使用前请按
+
+ * 数据联盟 [深度学习与计算机视觉系列(1)_基础介绍](http://dataunion.org/21801.html)
+
+> 作者： &&  出处：  http:blogcsdnnethanxiaoyangarticledetails49876119  http:blogcsdnnetlongxinchenmlarticledetails49963327  声明：版权所有，转载请注明出处，谢谢。 1背景是一个火了N年的topic。持续化升温的原因也非常简单：在搜索影像内容理解医学应用地图识别等等领域应用太多，大家都有一个愿景『让计算机能够像人一样去”看”一张图片，甚至”读懂”一张图片』。有几个比较重要的计算机视觉任务，比如图片的分类,物
+
+ * 数据联盟 [关于春节回家，大数据告诉你的8件事](http://dataunion.org/21788.html)
+
+> 古人出行常常要看黄历，那是因为对路上的诸多因素 无法预见。如今身处“互联网”时代的我们，可以依靠大数据的助力，用更加科学的手段来预测出行状况。距离春节越来越近了，从1月24日开始，春运大幕正式拉开，越来越多的人开始踏上回家的旅程。为期40天的2016年春运期间，全国旅客发送量预计将达291亿人次，同比增长36%，无愧一年一度的“人类最大规模集体迁徙活动”称号。关于这场迁徙，来看看小编在大数据中发现的8件事。1 上海站
+
+ * 数据联盟 [大数据不同的瑞士军刀：对比 Spark 和 MapReduce](http://dataunion.org/21785.html)
+
+> 英文出处：感谢译者：译文来自：http:blogjobbolecom97150Apache 基金会下的 Spark 再次引爆了大数据的话题。带着比 Hadoop MapReduce 速度要快 100 倍的承诺以及更加灵活方便的API，一些人认为这或许预示着 Hadoop MapReduce 的终结。作为一个开源的数据处理框架，Spark 是如何做到如此迅速地处理数据的呢？秘密就在于它是运行在集群的内存上的，而且不受限于 MapReduce的二阶段范式。这大大加快了重复访问同一数据的速度。Spark 既
+
+ * 数据联盟 [黑客租用阿里云平台攻击淘宝，9900万账户信息遭窃取](http://dataunion.org/21782.html)
+
+> 2月1日，澎湃新闻从浙江省公安机关打击整治网络违法犯罪“净网行动”新闻发布会获悉，浙江警方通报了半年来打击整治网络违法犯罪行为的15起典型案例，其中，嘉兴平湖警方破获的一起黑客攻击案中，犯罪团伙利用阿里漏洞，成功获取了淘宝账户信息约9900万个。会议通报，2015年6月，平湖市公安局网警大队在办理诈骗案件中发现一犯罪团伙利用阿里漏洞进行账号窃取行为，警方进一步侦查发现，该团伙于2015年10月14日至16日通过租用阿里云
+
+ * 数据联盟 [深度学习新选项：Kepler架构+AsKepler汇编器+Docker云](http://dataunion.org/21779.html)
+
+> Google的AlphaGo战胜人类职业选手的背后，深度学习发挥了巨大的作用。这一成果也需要一个高性能计算平台（HPC）的支持，从Google、百度、Facebook、商汤科技等公司的经验来看，搭建这样的平台并非易事。但即使不是BAT，开发者也可以通过云计算来获得具有同等能力的资源。阿里云基于NVIDIA最新Kepler架构和AsKepler汇编器优化，并支持Docker部署的HPC服务，已经让一些初创企业尝到甜头。在上海云栖大会上，NVIDIA与阿里云宣布合作拓展
+
+ * segmentfault [Typescript Handbook 精简版之变量声明](http://segmentfault.com/a/1190000004410597)
+
+>  变量声明`let` 和 `const` 是JavaScript新出的两个变量声明的方式。前面说过`let` 和 `var`类似，但是它们的作用域是不一样的。关于作用域，在ES6之前的Javascript中，函数体是唯一能能够创建新作用域的地方。那时候没有`let`，用`var`声明的变量，作用域要么是全局，要么是函数体，没有块级的作用域（块作用域变量在包含它们的块外部或for循环外部是不能被访问的）。而新版的Javascript引入了`let`关键字，用以声明
+
+ * segmentfault [OpenGL ES2 学习教程4——Shader语言](http://segmentfault.com/a/1190000004410579)
+
+> shader语言可以看成是特殊的C语言，专门用来创建顶点片段着色器程序的语言。像第二节里的程序             vertex shader    attribute vec4 vPosition;    void main {      glPosition  vPosition;    }     fragment shader    precision mediump float;    void main {      glFragColor  vec400, 10, 00, 10;    } 基本类型   标量 float int bool   浮点矢量 float vec2 vec3 vec4   整数矢量 int ivec2 ivec3 ive
+
+ * segmentfault [记一次 strace 追踪的 Docker + VirtualBox 的底层 bug](http://segmentfault.com/a/1190000004409472)
+
+> 最近在公司搭建一个基于 Docker 的 PHP 环境。 背景知识  1 Docker 是一种容器技术，它可以提供一个隔离的环境，让用户的程序运行在一个完全隔离的虚拟的系统里，但 Docker 不是虚拟化，使用 Docker 可以在 Linux 上实现对于任意程序打包一次，到处运行。愿意接受安利的同学请移步 http:dockerio 。  2 Mac OS X 的内核可以算是半个 BSD，Docker 依赖一些的 Linux 容器相关的技术是 OS X 不支持的，所以需要通过一个虚拟机运行 Linu
+
+ * segmentfault [Meteor：发布与订阅](http://segmentfault.com/a/1190000004408636)
+
+> 我们可以使用安全的方法让用户端不直接操作数据库，但是还是可以直接读取数据库内容，如果我们还需要保护私有的数据存储,在客户端直接使用`Collectionfind`，这样的操作方式在实际的项目中并不会使用，这样的数据无法保证私有性和安全性。如果一些数据我们并不想自动的在客户端更新，就需要自定义`publish`和`subscribe`，如何在Meteor中自定义发布与订阅模式呢? Remove Autopublish在 中我们移除了 `insecure`，在这里我
 
