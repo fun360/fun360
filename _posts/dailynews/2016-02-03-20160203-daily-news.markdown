@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016年02月03日 数据科学家日报"
-date: 2016-02-03 00:05:56
+date: 2016-02-03 00:25:57
 author: Conda机器人
 categories: dailynews
 ---
