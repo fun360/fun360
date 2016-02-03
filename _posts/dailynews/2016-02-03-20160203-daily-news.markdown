@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016年02月03日 数据科学家日报"
-date: 2016-02-03 00:25:57
+date: 2016-02-03 00:28:39
 author: Conda机器人
 categories: dailynews
 ---
@@ -27,11 +27,11 @@ categories: dailynews
 
  * 数据联盟 [驾驭机器学习的13种框架](http://dataunion.org/21761.html)
 
-> 想大胆尝试机器学习？这些工具可以为你处理繁重的任务。驾驭机器学习的13种框架http:attachdatagurucnattachmentsportal20160131214823vwot3wcvahwdwlo6jpg在去年，机器学习以前所未有的势头进入主流。对这股潮流起到推波助澜的不单单是成本低廉的云环境和功能更强大的GPU硬件，还有如今面向机器学习的数量激增的框架。它们都是开源框架，而更重要的是，它们旨在化解机器学习最难的部分，将其技术或方法提供给广泛的开发人员。本文介
+> 想大胆尝试机器学习？这些工具可以为你处理繁重的任务。驾驭机器学习的13种框架在去年，机器学习以前所未有的势头进入主流。对这股潮流起到推波助澜的不单单是成本低廉的云环境和功能更强大的GPU硬件，还有如今面向机器学习的数量激增的框架。它们都是开源框架，而更重要的是，它们旨在化解机器学习最难的部分，将其技术或方法提供给广泛的开发人员。本文介绍了13种机器学习框架，有的在去年刚出炉，有的刚修订。它们引起了我们的注
 
  * 数据联盟 [十年回顾：Hadoop老矣，尚能饭否？](http://dataunion.org/21759.html)
 
-> Hadoop，十岁生日快乐！于 2006年1月28日诞生的它改变了企业对数据的存储、处理和分析的过程，加速了大数据的发展，形成了自己的极其火爆的技术生态圈，并受到非常广泛的应用。InfoQ特别策划了系列文章，为大家梳理Hadoop这十年的变化，以及技术圈的生态状况，这是为Hadoop庆生的第一篇。一张图回顾Hadoop十年http:attachdatagurucnattachmentsportal20160129095420omt6urysne6ul8zyjpg1、引子什么是大数据？大数据指的是规模超过现
+> Hadoop，十岁生日快乐！于 2006年1月28日诞生的它改变了企业对数据的存储、处理和分析的过程，加速了大数据的发展，形成了自己的极其火爆的技术生态圈，并受到非常广泛的应用。InfoQ特别策划了系列文章，为大家梳理Hadoop这十年的变化，以及技术圈的生态状况，这是为Hadoop庆生的第一篇。一张图回顾Hadoop十年1、引子什么是大数据？大数据指的是规模超过现有数据库工具获取、存储、管理和分析能力的数据集，并同时强调并不是超过某个
 
  * 数据联盟 [猴年春晚：“六小龄童”的营销风云](http://dataunion.org/21755.html)
 
@@ -39,7 +39,7 @@ categories: dailynews
 
  * 数据联盟 [2015全球十大最具潜力开源项目](http://dataunion.org/21751.html)
 
-> 黑鸭（Black Duck）软件公布了一份名叫“年度开源项目新秀”的报告，介绍了由全球开源协会发起的10个最有趣、最活跃的新项目。http:wwwimgeekorguploadsarticle20150707712717292ea5e5c062f6645e794fd1d4jpg年度开源项目新秀每 年都有上千新的开源项目问世，但只有少数能够真正的吸引我们的关注。一些项目因为利用了当前比较流行的技术而发展壮大，有一些则真正地开启了一个新的领域。很多开源项目建立的初衷是为了解决一些生产上的
+> 黑鸭（Black Duck）软件公布了一份名叫“年度开源项目新秀”的报告，介绍了由全球开源协会发起的10个最有趣、最活跃的新项目。年度开源项目新秀每 年都有上千新的开源项目问世，但只有少数能够真正的吸引我们的关注。一些项目因为利用了当前比较流行的技术而发展壮大，有一些则真正地开启了一个新的领域。很多开源项目建立的初衷是为了解决一些生产上的问题，还有一些项目则是世界各地志同道合的开发者们共同发起的一个宏伟项目。从
 
  * 伯乐在线 [从4行代码看右值引用](http://blog.jobbole.com/97841/)
 
@@ -135,7 +135,7 @@ categories: dailynews
 
  * 酷壳 [Docker基础技术：AUFS](http://coolshell.cn/articles/17061.html)
 
-> http:coolshellcnwpcontentuploads201508dockerfilesystemsbusyboxrwpngAUFS是一种Union File System，所谓UnionFS就是把不同物理位置的目录合并mount到同一个目录中。UnionFS的一个最主要的应用是，把一张CDDVD和一个硬盘目录给联合mount在一起，然后，你就可以对这个只读的CDDVD上的文件进行修改（当然，修改的文件存于硬盘上的目录里）。AUFS又叫Another UnionFS，后来叫Alternative UnionFS，后来可能觉得不够霸气，叫成Advance
+> AUFS是一种Union File System，所谓UnionFS就是把不同物理位置的目录合并mount到同一个目录中。UnionFS的一个最主要的应用是，把一张CDDVD和一个硬盘目录给联合mount在一起，然后，你就可以对这个只读的CDDVD上的文件进行修改（当然，修改的文件存于硬盘上的目录里）。AUFS又叫Another UnionFS，后来叫Alternative UnionFS，后来可能觉得不够霸气，叫成AdvanceUnionFS。是个叫Junjiro Okajima（岡島順治郎）在2006年开发的，AUFS完全
 
  * 酷壳 [Docker基础技术：Linux CGroup](http://coolshell.cn/articles/17049.html)
 
@@ -175,7 +175,7 @@ categories: dailynews
 
  * 统计之都 [《Rcpp：R与C++的无缝整合》](http://cos.name/2016/01/seamless-r-and-c-integration-with-rcpp/)
 
->  《Rcpp：R与C的无缝整合》、、、http:cosnamewpcontentuploads201601RcppjpgSeamless R and C Integration with Rcpp 关于COS编辑部本账户为COS编辑部公共账户，目前由朱雪宁任主编，王小宁任副主编，编辑有：冯璟烁、吴佳萍、张心雨、施涛、霍志骥、何通、冷静、尤晓斌、肖楠、邱怡轩、高涛、谢益辉等人，主要负责主站文章的规范化编辑以及相关论文、书籍、手册的整理、编纂、出版等工作。 
+>  《Rcpp：R与C的无缝整合》、、、Seamless R and C Integration with Rcpp
 
  * 统计之都 [中文文本处理简要介绍](http://cos.name/2016/01/intro-to-chinese-nlp/)
 
@@ -335,7 +335,7 @@ categories: dailynews
 
  * 阮一峰的网络日志 [《ES6 标准入门》（第二版）出版了](http://www.ruanyifeng.com/blog/2016/01/ecmascript-6-primer.html)
 
-> 如果你经常看这个博客，就会知道我写了一本书。现在第二版问世了，书名为。http:es6ruanyifengcomimagescover2ndjpg购买链接如下。全部是现货。现在下单，最快明天就能拿到。                老读者都知道，这本书是的。你可以先看看，再决定买不买。出版社有利润压力，但还是支持我开源。希望不会影响销量，如果最后亏钱，就对不起朋友了。这本书的质量，我很有信心。市场上唯一的ES6出版物，可能也是最好的 JavaScript 进阶教程。
+> 如果你经常看这个博客，就会知道我写了一本书。现在第二版问世了，书名为。购买链接如下。全部是现货。现在下单，最快明天就能拿到。                老读者都知道，这本书是的。你可以先看看，再决定买不买。出版社有利润压力，但还是支持我开源。希望不会影响销量，如果最后亏钱，就对不起朋友了。这本书的质量，我很有信心。市场上唯一的ES6出版物，可能也是最好的 JavaScript 进阶教程。所有语法点都讲解了，尽量做到深入浅出。
 
  * 阮一峰的网络日志 [更多的人死于心碎](http://www.ruanyifeng.com/blog/2016/01/ian-murdock.html)
 
@@ -471,7 +471,7 @@ categories: dailynews
 
  * 我爱自然语言处理 [达观数据对于大规模消息数据处理的系统架构](http://www.52nlp.cn/datagrand-message)
 
-> 达观数据是为企业提供大数据处理、个性化推荐系统服务的知名公司，在应对海量数据处理时，积累了大量实战经验。其中达观数据在面对大量的数据交互和消息处理时，使用了称为DPIO的设计思路进行快速、稳定、可靠的消息数据传递机制，本文分享了达观数据在应对大规模消息数据处理时所开发的通讯中间件DPIO的设计思路和处理经验（达观数据架构师 桂洪冠）一、数据通讯进程模型http:www52nlpcnwpcontentuploads201512q1jpg在设计达观数据
+> 达观数据是为企业提供大数据处理、个性化推荐系统服务的知名公司，在应对海量数据处理时，积累了大量实战经验。其中达观数据在面对大量的数据交互和消息处理时，使用了称为DPIO的设计思路进行快速、稳定、可靠的消息数据传递机制，本文分享了达观数据在应对大规模消息数据处理时所开发的通讯中间件DPIO的设计思路和处理经验（达观数据架构师 桂洪冠）一、数据通讯进程模型在设计达观数据的消息数据处理机制时，首先充分借鉴了ZeroMQ
 
  * 我爱自然语言处理 [在微信公众号里使用LaTeX数学公式](http://www.52nlp.cn/%e5%9c%a8%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%8f%b7%e9%87%8c%e4%bd%bf%e7%94%a8latex%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8f)
 
@@ -491,7 +491,7 @@ categories: dailynews
 
  * 我爱自然语言处理 [斯坦福大学深度学习与自然语言处理第三讲：高级的词向量表示](http://www.52nlp.cn/%e6%96%af%e5%9d%a6%e7%a6%8f%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e4%b8%8e%e8%87%aa%e7%84%b6%e8%af%ad%e8%a8%80%e5%a4%84%e7%90%86%e9%ab%98%e7%ba%a7%e7%9a%84%e8%af%8d%e5%90%91%e9%87%8f%e8%a1%a8%e7%a4%ba)
 
-> 斯坦福大学在三月份开设了一门“”的课程：，授课老师是青年才俊 ，以下为相关的课程笔记。第三讲：高级的词向量表示（Advanced word vector representations: language models, softmax,single layer networks）推荐阅读材料：  1 Paper1：  2 Paper2：  3 Notes：   4 第三讲Slides   5 第三讲视频 以下是第三讲的相关笔记，主要参考自课程的slides，视频和其他相关资料。    回顾：简单的word2vec模型   代价函数Jhttp:www52nl
+> 斯坦福大学在三月份开设了一门“”的课程：，授课老师是青年才俊 ，以下为相关的课程笔记。第三讲：高级的词向量表示（Advanced word vector representations: language models, softmax,single layer networks）推荐阅读材料：  1 Paper1：  2 Paper2：  3 Notes：   4 第三讲Slides   5 第三讲视频 以下是第三讲的相关笔记，主要参考自课程的slides，视频和其他相关资料。    回顾：简单的word2vec模型   代价函数J   其中的概率
 
  * 我爱自然语言处理 [斯坦福大学深度学习与自然语言处理第二讲：词向量](http://www.52nlp.cn/%e6%96%af%e5%9d%a6%e7%a6%8f%e5%a4%a7%e5%ad%a6%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e4%b8%8e%e8%87%aa%e7%84%b6%e8%af%ad%e8%a8%80%e5%a4%84%e7%90%86%e7%ac%ac%e4%ba%8c%e8%ae%b2%e8%af%8d%e5%90%91%e9%87%8f)
 
