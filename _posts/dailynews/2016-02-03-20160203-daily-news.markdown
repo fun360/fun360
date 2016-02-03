@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016年02月03日 数据科学家日报"
-date: 2016-02-03 09:09:41
+date: 2016-02-03 09:14:58
 author: Conda机器人
 categories: dailynews
 ---
@@ -433,6 +433,42 @@ categories: dailynews
 
 > 本教程适用于学习opengles，采用c语言。基于Android平台。 创建工程可以使用androidstudio,eclipse去创建一个工程，这里我使用命令行（Android的环境配置略）。             create android project    mkdir GlesTutorial    cd GlesTutorial    android create project target android19 name GlesTutorial path  package comrichardglestutorial activity AppActivity         jni port    mkdir jni     core c code    mkdir 
 
+ * 数据联盟 [深度学习与计算机视觉系列(1)_基础介绍](http://dataunion.org/21801.html)
+
+> 作者： &&  出处：  http:blogcsdnnethanxiaoyangarticledetails49876119  http:blogcsdnnetlongxinchenmlarticledetails49963327  声明：版权所有，转载请注明出处，谢谢。 1背景是一个火了N年的topic。持续化升温的原因也非常简单：在搜索影像内容理解医学应用地图识别等等领域应用太多，大家都有一个愿景『让计算机能够像人一样去”看”一张图片，甚至”读懂”一张图片』。有几个比较重要的计算机视觉任务，比如图片的分类,物
+
+ * 数据联盟 [关于春节回家，大数据告诉你的8件事](http://dataunion.org/21788.html)
+
+> 古人出行常常要看黄历，那是因为对路上的诸多因素 无法预见。如今身处“互联网”时代的我们，可以依靠大数据的助力，用更加科学的手段来预测出行状况。距离春节越来越近了，从1月24日开始，春运大幕正式拉开，越来越多的人开始踏上回家的旅程。为期40天的2016年春运期间，全国旅客发送量预计将达291亿人次，同比增长36%，无愧一年一度的“人类最大规模集体迁徙活动”称号。关于这场迁徙，来看看小编在大数据中发现的8件事。1 上海站
+
+ * 数据联盟 [大数据不同的瑞士军刀：对比 Spark 和 MapReduce](http://dataunion.org/21785.html)
+
+> 英文出处：感谢译者：译文来自：http:blogjobbolecom97150Apache 基金会下的 Spark 再次引爆了大数据的话题。带着比 Hadoop MapReduce 速度要快 100 倍的承诺以及更加灵活方便的API，一些人认为这或许预示着 Hadoop MapReduce 的终结。作为一个开源的数据处理框架，Spark 是如何做到如此迅速地处理数据的呢？秘密就在于它是运行在集群的内存上的，而且不受限于 MapReduce的二阶段范式。这大大加快了重复访问同一数据的速度。Spark 既
+
+ * 数据联盟 [黑客租用阿里云平台攻击淘宝，9900万账户信息遭窃取](http://dataunion.org/21782.html)
+
+> 2月1日，澎湃新闻从浙江省公安机关打击整治网络违法犯罪“净网行动”新闻发布会获悉，浙江警方通报了半年来打击整治网络违法犯罪行为的15起典型案例，其中，嘉兴平湖警方破获的一起黑客攻击案中，犯罪团伙利用阿里漏洞，成功获取了淘宝账户信息约9900万个。会议通报，2015年6月，平湖市公安局网警大队在办理诈骗案件中发现一犯罪团伙利用阿里漏洞进行账号窃取行为，警方进一步侦查发现，该团伙于2015年10月14日至16日通过租用阿里云
+
+ * 数据联盟 [深度学习新选项：Kepler架构+AsKepler汇编器+Docker云](http://dataunion.org/21779.html)
+
+> Google的AlphaGo战胜人类职业选手的背后，深度学习发挥了巨大的作用。这一成果也需要一个高性能计算平台（HPC）的支持，从Google、百度、Facebook、商汤科技等公司的经验来看，搭建这样的平台并非易事。但即使不是BAT，开发者也可以通过云计算来获得具有同等能力的资源。阿里云基于NVIDIA最新Kepler架构和AsKepler汇编器优化，并支持Docker部署的HPC服务，已经让一些初创企业尝到甜头。在上海云栖大会上，NVIDIA与阿里云宣布合作拓展
+
+ * segmentfault [Typescript Handbook 精简版之变量声明](http://segmentfault.com/a/1190000004410597)
+
+>  变量声明`let` 和 `const` 是JavaScript新出的两个变量声明的方式。前面说过`let` 和 `var`类似，但是它们的作用域是不一样的。关于作用域，在ES6之前的Javascript中，函数体是唯一能能够创建新作用域的地方。那时候没有`let`，用`var`声明的变量，作用域要么是全局，要么是函数体，没有块级的作用域（块作用域变量在包含它们的块外部或for循环外部是不能被访问的）。而新版的Javascript引入了`let`关键字，用以声明
+
+ * segmentfault [OpenGL ES2 学习教程4——Shader语言](http://segmentfault.com/a/1190000004410579)
+
+> shader语言可以看成是特殊的C语言，专门用来创建顶点片段着色器程序的语言。像第二节里的程序             vertex shader    attribute vec4 vPosition;    void main {      glPosition  vPosition;    }     fragment shader    precision mediump float;    void main {      glFragColor  vec400, 10, 00, 10;    } 基本类型   标量 float int bool   浮点矢量 float vec2 vec3 vec4   整数矢量 int ivec2 ivec3 ive
+
+ * segmentfault [记一次 strace 追踪的 Docker + VirtualBox 的底层 bug](http://segmentfault.com/a/1190000004409472)
+
+> 最近在公司搭建一个基于 Docker 的 PHP 环境。 背景知识  1 Docker 是一种容器技术，它可以提供一个隔离的环境，让用户的程序运行在一个完全隔离的虚拟的系统里，但 Docker 不是虚拟化，使用 Docker 可以在 Linux 上实现对于任意程序打包一次，到处运行。愿意接受安利的同学请移步 http:dockerio 。  2 Mac OS X 的内核可以算是半个 BSD，Docker 依赖一些的 Linux 容器相关的技术是 OS X 不支持的，所以需要通过一个虚拟机运行 Linu
+
+ * segmentfault [Meteor：发布与订阅](http://segmentfault.com/a/1190000004408636)
+
+> 我们可以使用安全的方法让用户端不直接操作数据库，但是还是可以直接读取数据库内容，如果我们还需要保护私有的数据存储,在客户端直接使用`Collectionfind`，这样的操作方式在实际的项目中并不会使用，这样的数据无法保证私有性和安全性。如果一些数据我们并不想自动的在客户端更新，就需要自定义`publish`和`subscribe`，如何在Meteor中自定义发布与订阅模式呢? Remove Autopublish在 中我们移除了 `insecure`，在这里我
+
  * 我爱自然语言处理 [达观数据对于大规模消息数据处理的系统架构](http://www.52nlp.cn/datagrand-message)
 
 > 达观数据是为企业提供大数据处理、个性化推荐系统服务的知名公司，在应对海量数据处理时，积累了大量实战经验。其中达观数据在面对大量的数据交互和消息处理时，使用了称为DPIO的设计思路进行快速、稳定、可靠的消息数据传递机制，本文分享了达观数据在应对大规模消息数据处理时所开发的通讯中间件DPIO的设计思路和处理经验（达观数据架构师 桂洪冠）一、数据通讯进程模型在设计达观数据的消息数据处理机制时，首先充分借鉴了ZeroMQ
@@ -472,40 +508,4 @@ categories: dailynews
  * 我爱自然语言处理 [用MeCab打造一套实用的中文分词系统(二)](http://www.52nlp.cn/%e7%94%a8mecab%e6%89%93%e9%80%a0%e4%b8%80%e5%a5%97%e5%ae%9e%e7%94%a8%e7%9a%84%e4%b8%ad%e6%96%87%e5%88%86%e8%af%8d%e7%b3%bb%e7%bb%9f%e4%ba%8c)
 
 > 虽然是愚人节，但是这个不是愚人节玩笑，最近花了一些时间在MeCab身上，越发喜欢这个来自岛国的开源分词系统，今天花了一些时间训练了一个更适用的模型和词典，打包提供给大家使用，因为数据和词典涉及到一些版权问题，所以打包文件里只是mecab用于发布的二进制词典和模型文件，目前在mac os和linuxubuntu系统下测试无误，其他系统请自行测试使用：链接: http:panbaiducoms1sjBfdXr 密码: 8udf了解和安装mecab请参考：    使用前请按
-
- * 数据联盟 [深度学习与计算机视觉系列(1)_基础介绍](http://dataunion.org/21801.html)
-
-> 作者： &&  出处：  http:blogcsdnnethanxiaoyangarticledetails49876119  http:blogcsdnnetlongxinchenmlarticledetails49963327  声明：版权所有，转载请注明出处，谢谢。 1背景是一个火了N年的topic。持续化升温的原因也非常简单：在搜索影像内容理解医学应用地图识别等等领域应用太多，大家都有一个愿景『让计算机能够像人一样去”看”一张图片，甚至”读懂”一张图片』。有几个比较重要的计算机视觉任务，比如图片的分类,物
-
- * 数据联盟 [关于春节回家，大数据告诉你的8件事](http://dataunion.org/21788.html)
-
-> 古人出行常常要看黄历，那是因为对路上的诸多因素 无法预见。如今身处“互联网”时代的我们，可以依靠大数据的助力，用更加科学的手段来预测出行状况。距离春节越来越近了，从1月24日开始，春运大幕正式拉开，越来越多的人开始踏上回家的旅程。为期40天的2016年春运期间，全国旅客发送量预计将达291亿人次，同比增长36%，无愧一年一度的“人类最大规模集体迁徙活动”称号。关于这场迁徙，来看看小编在大数据中发现的8件事。1 上海站
-
- * 数据联盟 [大数据不同的瑞士军刀：对比 Spark 和 MapReduce](http://dataunion.org/21785.html)
-
-> 英文出处：感谢译者：译文来自：http:blogjobbolecom97150Apache 基金会下的 Spark 再次引爆了大数据的话题。带着比 Hadoop MapReduce 速度要快 100 倍的承诺以及更加灵活方便的API，一些人认为这或许预示着 Hadoop MapReduce 的终结。作为一个开源的数据处理框架，Spark 是如何做到如此迅速地处理数据的呢？秘密就在于它是运行在集群的内存上的，而且不受限于 MapReduce的二阶段范式。这大大加快了重复访问同一数据的速度。Spark 既
-
- * 数据联盟 [黑客租用阿里云平台攻击淘宝，9900万账户信息遭窃取](http://dataunion.org/21782.html)
-
-> 2月1日，澎湃新闻从浙江省公安机关打击整治网络违法犯罪“净网行动”新闻发布会获悉，浙江警方通报了半年来打击整治网络违法犯罪行为的15起典型案例，其中，嘉兴平湖警方破获的一起黑客攻击案中，犯罪团伙利用阿里漏洞，成功获取了淘宝账户信息约9900万个。会议通报，2015年6月，平湖市公安局网警大队在办理诈骗案件中发现一犯罪团伙利用阿里漏洞进行账号窃取行为，警方进一步侦查发现，该团伙于2015年10月14日至16日通过租用阿里云
-
- * 数据联盟 [深度学习新选项：Kepler架构+AsKepler汇编器+Docker云](http://dataunion.org/21779.html)
-
-> Google的AlphaGo战胜人类职业选手的背后，深度学习发挥了巨大的作用。这一成果也需要一个高性能计算平台（HPC）的支持，从Google、百度、Facebook、商汤科技等公司的经验来看，搭建这样的平台并非易事。但即使不是BAT，开发者也可以通过云计算来获得具有同等能力的资源。阿里云基于NVIDIA最新Kepler架构和AsKepler汇编器优化，并支持Docker部署的HPC服务，已经让一些初创企业尝到甜头。在上海云栖大会上，NVIDIA与阿里云宣布合作拓展
-
- * segmentfault [Typescript Handbook 精简版之变量声明](http://segmentfault.com/a/1190000004410597)
-
->  变量声明`let` 和 `const` 是JavaScript新出的两个变量声明的方式。前面说过`let` 和 `var`类似，但是它们的作用域是不一样的。关于作用域，在ES6之前的Javascript中，函数体是唯一能能够创建新作用域的地方。那时候没有`let`，用`var`声明的变量，作用域要么是全局，要么是函数体，没有块级的作用域（块作用域变量在包含它们的块外部或for循环外部是不能被访问的）。而新版的Javascript引入了`let`关键字，用以声明
-
- * segmentfault [OpenGL ES2 学习教程4——Shader语言](http://segmentfault.com/a/1190000004410579)
-
-> shader语言可以看成是特殊的C语言，专门用来创建顶点片段着色器程序的语言。像第二节里的程序             vertex shader    attribute vec4 vPosition;    void main {      glPosition  vPosition;    }     fragment shader    precision mediump float;    void main {      glFragColor  vec400, 10, 00, 10;    } 基本类型   标量 float int bool   浮点矢量 float vec2 vec3 vec4   整数矢量 int ivec2 ivec3 ive
-
- * segmentfault [记一次 strace 追踪的 Docker + VirtualBox 的底层 bug](http://segmentfault.com/a/1190000004409472)
-
-> 最近在公司搭建一个基于 Docker 的 PHP 环境。 背景知识  1 Docker 是一种容器技术，它可以提供一个隔离的环境，让用户的程序运行在一个完全隔离的虚拟的系统里，但 Docker 不是虚拟化，使用 Docker 可以在 Linux 上实现对于任意程序打包一次，到处运行。愿意接受安利的同学请移步 http:dockerio 。  2 Mac OS X 的内核可以算是半个 BSD，Docker 依赖一些的 Linux 容器相关的技术是 OS X 不支持的，所以需要通过一个虚拟机运行 Linu
-
- * segmentfault [Meteor：发布与订阅](http://segmentfault.com/a/1190000004408636)
-
-> 我们可以使用安全的方法让用户端不直接操作数据库，但是还是可以直接读取数据库内容，如果我们还需要保护私有的数据存储,在客户端直接使用`Collectionfind`，这样的操作方式在实际的项目中并不会使用，这样的数据无法保证私有性和安全性。如果一些数据我们并不想自动的在客户端更新，就需要自定义`publish`和`subscribe`，如何在Meteor中自定义发布与订阅模式呢? Remove Autopublish在 中我们移除了 `insecure`，在这里我
 
