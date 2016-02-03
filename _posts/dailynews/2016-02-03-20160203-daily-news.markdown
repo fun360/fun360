@@ -7,7 +7,7 @@ categories: dailynews
 ---
  * 数据联盟 [深度学习与计算机视觉系列(1)_基础介绍](http://dataunion.org/21801.html)
 
-> 作者： &&  出处：  http:blogcsdnnethanxiaoyangarticledetails49876119  http:blogcsdnnetlongxinchenmlarticledetails49963327  声明：版权所有，转载请注明出处，谢谢。 1背景是一个火了N年的topic。持续化升温的原因也非常简单：在搜索影像内容理解医学应用地图识别等等领域应用太多，大家都有一个愿景『让计算机能够像人一样去”看”一张图片，甚至”读懂”一张图片』。有几个比较重要的计算机视觉任务，比如图片的分类,物
+> 背景是一个火了N年的topic。持续化升温的原因也非常简单：在搜索影像内容理解医学应用地图识别等等领域应用太多，大家都有一个愿景『让计算机能够像人一样去”看”一张图片，甚至”读懂”一张图片』。有几个比较重要的计算机视觉任务，比如图片的分类,物
 
  * 数据联盟 [关于春节回家，大数据告诉你的8件事](http://dataunion.org/21788.html)
 
@@ -15,7 +15,7 @@ categories: dailynews
 
  * 数据联盟 [大数据不同的瑞士军刀：对比 Spark 和 MapReduce](http://dataunion.org/21785.html)
 
-> 英文出处：感谢译者：译文来自：http:blogjobbolecom97150Apache 基金会下的 Spark 再次引爆了大数据的话题。带着比 Hadoop MapReduce 速度要快 100 倍的承诺以及更加灵活方便的API，一些人认为这或许预示着 Hadoop MapReduce 的终结。作为一个开源的数据处理框架，Spark 是如何做到如此迅速地处理数据的呢？秘密就在于它是运行在集群的内存上的，而且不受限于 MapReduce的二阶段范式。这大大加快了重复访问同一数据的速度。Spark 既
+> Apache 基金会下的 Spark 再次引爆了大数据的话题。带着比 Hadoop MapReduce 速度要快 100 倍的承诺以及更加灵活方便的API，一些人认为这或许预示着 Hadoop MapReduce 的终结。作为一个开源的数据处理框架，Spark 是如何做到如此迅速地处理数据的呢？秘密就在于它是运行在集群的内存上的，而且不受限于 MapReduce的二阶段范式。这大大加快了重复访问同一数据的速度。Spark 既
 
  * 数据联盟 [黑客租用阿里云平台攻击淘宝，9900万账户信息遭窃取](http://dataunion.org/21782.html)
 
@@ -35,7 +35,7 @@ categories: dailynews
 
  * segmentfault [记一次 strace 追踪的 Docker + VirtualBox 的底层 bug](http://segmentfault.com/a/1190000004409472)
 
-> 最近在公司搭建一个基于 Docker 的 PHP 环境。 背景知识  1 Docker 是一种容器技术，它可以提供一个隔离的环境，让用户的程序运行在一个完全隔离的虚拟的系统里，但 Docker 不是虚拟化，使用 Docker 可以在 Linux 上实现对于任意程序打包一次，到处运行。愿意接受安利的同学请移步 http:dockerio 。  2 Mac OS X 的内核可以算是半个 BSD，Docker 依赖一些的 Linux 容器相关的技术是 OS X 不支持的，所以需要通过一个虚拟机运行 Linu
+> 最近在公司搭建一个基于 Docker 的 PHP 环境。 背景知识 Docker 是一种容器技术，它可以提供一个隔离的环境，让用户的程序运行在一个完全隔离的虚拟的系统里，但 Docker 不是虚拟化，使用 Docker 可以在 Linux 上实现对于任意程序打包一次，到处运行。愿意接受安利的同学请移步 http:dockerio 。  2 Mac OS X 的内核可以算是半个 BSD，Docker 依赖一些的 Linux 容器相关的技术是 OS X 不支持的，所以需要通过一个虚拟机运行 Linu
 
  * segmentfault [Meteor：发布与订阅](http://segmentfault.com/a/1190000004408636)
 
@@ -51,7 +51,7 @@ categories: dailynews
 
  * 我爱自然语言处理 [斯坦福大学深度学习与自然语言处理第四讲：词窗口分类和神经网络](http://www.52nlp.cn/%e6%96%af%e5%9d%a6%e7%a6%8f%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e4%b8%8enlp%e7%ac%ac%e5%9b%9b%e8%ae%b2%e8%af%8d%e7%aa%97%e5%8f%a3%e5%88%86%e7%b1%bb%e5%92%8c%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c)
 
-> 斯坦福大学在三月份开设了一门“”的课程：，授课老师是青年才俊 ，以下为相关的课程笔记。第四讲：词窗口分类和神经网络（Word Window Classification and Neural Networks）推荐阅读材料：  1   2   3 第四讲Slides   4 第四讲视频 以下是第四讲的相关笔记，主要参考自课程的slides，视频和其他相关资料。    本讲概览   分类问题背景   在分类任务中融入词向量   窗口分类和交叉熵误差推导技巧   一个单层的神经网络   最大间隔损
+> 斯坦福大学在三月份开设了一门课程：，授课老师是青年才俊 ，以下为相关的课程笔记。第四讲：词窗口分类和神经网络（Word Window Classification and Neural Networks）
 
  * 我爱自然语言处理 [出门问问宣布完成由Google投资的C轮融资，累计融资7500万美金](http://www.52nlp.cn/%e5%87%ba%e9%97%a8%e9%97%ae%e9%97%ae%e5%ae%a3%e5%b8%83%e5%ae%8c%e6%88%90%e7%94%b1google%e6%8a%95%e8%b5%84%e7%9a%84c%e8%bd%ae%e8%9e%8d%e8%b5%84%ef%bc%8c%e7%b4%af%e8%ae%a1%e8%9e%8d%e8%b5%847500%e4%b8%87)
 
@@ -63,7 +63,7 @@ categories: dailynews
 
  * 我爱自然语言处理 [斯坦福大学深度学习与自然语言处理第三讲：高级的词向量表示](http://www.52nlp.cn/%e6%96%af%e5%9d%a6%e7%a6%8f%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e4%b8%8e%e8%87%aa%e7%84%b6%e8%af%ad%e8%a8%80%e5%a4%84%e7%90%86%e9%ab%98%e7%ba%a7%e7%9a%84%e8%af%8d%e5%90%91%e9%87%8f%e8%a1%a8%e7%a4%ba)
 
-> 斯坦福大学在三月份开设了一门“”的课程：，授课老师是青年才俊 ，以下为相关的课程笔记。第三讲：高级的词向量表示（Advanced word vector representations: language models, softmax,single layer networks）推荐阅读材料：  1 Paper1：  2 Paper2：  3 Notes：   4 第三讲Slides   5 第三讲视频 以下是第三讲的相关笔记，主要参考自课程的slides，视频和其他相关资料。    回顾：简单的word2vec模型   代价函数J   其中的概率
+> 斯坦福大学在三月份开设了一门的课程：，授课老师是青年才俊 ，以下为相关的课程笔记。第三讲：高级的词向量表示（Advanced word vector representations: language models, softmax,single layer networks）推荐阅读材料：  1 Paper1：  2 Paper2：  3 Notes：   4 第三讲Slides   5 第三讲视频 以下是第三讲的相关笔记，主要参考自课程的slides，视频和其他相关资料。    回顾：简单的word2vec模型   代价函数J   其中的概率
 
  * 我爱自然语言处理 [斯坦福大学深度学习与自然语言处理第二讲：词向量](http://www.52nlp.cn/%e6%96%af%e5%9d%a6%e7%a6%8f%e5%a4%a7%e5%ad%a6%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e4%b8%8e%e8%87%aa%e7%84%b6%e8%af%ad%e8%a8%80%e5%a4%84%e7%90%86%e7%ac%ac%e4%ba%8c%e8%ae%b2%e8%af%8d%e5%90%91%e9%87%8f)
 
@@ -79,5 +79,5 @@ categories: dailynews
 
  * 我爱自然语言处理 [用MeCab打造一套实用的中文分词系统(二)](http://www.52nlp.cn/%e7%94%a8mecab%e6%89%93%e9%80%a0%e4%b8%80%e5%a5%97%e5%ae%9e%e7%94%a8%e7%9a%84%e4%b8%ad%e6%96%87%e5%88%86%e8%af%8d%e7%b3%bb%e7%bb%9f%e4%ba%8c)
 
-> 虽然是愚人节，但是这个不是愚人节玩笑，最近花了一些时间在MeCab身上，越发喜欢这个来自岛国的开源分词系统，今天花了一些时间训练了一个更适用的模型和词典，打包提供给大家使用，因为数据和词典涉及到一些版权问题，所以打包文件里只是mecab用于发布的二进制词典和模型文件，目前在mac os和linuxubuntu系统下测试无误，其他系统请自行测试使用：链接: http:panbaiducoms1sjBfdXr 密码: 8udf了解和安装mecab请参考：    使用前请按
+> 虽然是愚人节，但是这个不是愚人节玩笑，最近花了一些时间在MeCab身上，越发喜欢这个来自岛国的开源分词系统，今天花了一些时间训练了一个更适用的模型和词典，打包提供给大家使用，因为数据和词典涉及到一些版权问题，所以打包文件里只是mecab用于发布的二进制词典和模型文件，目前在mac os和linuxubuntu系统下测试无误，其他系统请自行测试使用：了解和安装mecab请参考：    使用前请按
 
