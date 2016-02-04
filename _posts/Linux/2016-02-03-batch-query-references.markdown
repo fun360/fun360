@@ -35,7 +35,7 @@ excerpt:
   }
 </style>
 <div class = "query">
-  <textarea class="form-control" rows="10"></textarea>
+  <textarea class="form-control" rows="10" placeholder = "#请输入查询关键词，一行一个，如：\nADH4\nrs2980333"></textarea>
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
 <div class="text-center">
