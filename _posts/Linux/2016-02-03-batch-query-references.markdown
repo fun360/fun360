@@ -38,9 +38,9 @@ excerpt:
   }
 
 </style>
-<small>版本： 1.0.0 beta 更新于：2016-2-4</small>
+
 <div class = "query">
-  示例：<span class = "text-danger">目前仅支持每个关键词显示20条记录！</span>
+  示例：<span class = "text-danger">目前仅支持每个关键词显示20条记录！</span><br/><small>版本： 1.0.0 beta 更新于：2016-2-4</small>
   <pre>ADH4
 rs2988084
 alcohol
