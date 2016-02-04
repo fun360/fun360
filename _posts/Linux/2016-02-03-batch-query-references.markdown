@@ -78,6 +78,7 @@ var query  = function(keyword){
                       var author = $("<span></span>").html("Last Author: "+author).addClass("author")
                       var journal = $("<span></span>").html("[" + journal + "]").addClass("journal")
                       var date = $("<span></span>").html("Publish Date: " + date).addClass("pubdate")
+                      var readmore = $("<span></span>").html("Read More").attr("href",url).attr('target','_blank')
                       var item = $("<li></li>").append(title).append(author).append(date).append(journal)
                       totalItem.append(item)
                   }
