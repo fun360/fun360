@@ -11,6 +11,10 @@ excerpt:
   .query, .result {
     padding: 1em;
   }
+  .result > ul > li {
+    list-style-type:none;
+    background-color: #EEE;
+  }
 </style>
 <div class = "query">
   <textarea class="form-control" rows="10"></textarea>
