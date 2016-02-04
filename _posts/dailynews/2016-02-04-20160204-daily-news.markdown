@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "2016年02月04日 数据科学家日报"
+date: 2016-02-04 09:09:27
+author: Conda机器人
+categories: dailynews
+---
+ * 数据联盟 [【数盟译文】数据可视化: 14个惊爆眼球的例子](http://dataunion.org/21810.html)
+
+>  数盟原创译文，转载请注明出处，译者：张俊祺听起来酷炫的就像个噱头, 但其实大有意义 数据可视化实际上是一门用视觉化的方式展现纷繁复杂的数据集的艺术。数据可视化的出现其实是希望能用一种更加引人入胜的方式展示数据，使繁杂的数据变得更加容易理解。因此这种方式在向客户或者企业内部大股东展示数据时变得尤为适用。了解了以上这些之后, 现在为大家带来我个人最爱的14个数据可视化实例。数据可视化为何如此重要？David 
+
+ * 数据联盟 [龙星镖局 | 2015 机器学习颁奖礼](http://dataunion.org/21807.html)
+
+>  技    术    类1最佳学术研究奖题目：Humanlevel concept learning through probabilistic program induction下载：http:wwwsciencemagorgcontent35062661332简介：作者包括麻省理工著名认知科学家Joshua Tenenbaum及弟子Brenden Lake，与多伦多大学Ruslan Salakhutdinov，文中的方法只用很少的例子就能打败深度学习方法。深度学习大师Hinton老爷子也对这篇文章给予很高的评价，有希望成为后深度学习时代一颗闪亮的星
+
+ * 伯乐在线 [我们公司的ASP.NET 笔试题，你觉得难度如何](http://blog.jobbole.com/97846/)
+
+> 原文出处：    欢迎分享原创到本套试题共8个题，主要考察C面向对象基础，SQL和ASPNET MVC基础知识。第13题会使用到一个枚举类，其定义如下：            public enum QuestionType     {         Text  0,         MultipleChoice  1     }第1题：请定义一个接口IQuestion，有【标题】和【问题种类】两个属性，其中【问题种类】是只读的枚举类型QuestionType，另外还有一个方法获取该问题的答案（无参，返回字符串）。第2
+
+ * info Q [2016年，文本分析、情感分析和社交分析的10大趋势](http://www.infoq.com/cn/articles/2016-text-sentiment-social-analyse-trend)
+
+> 
+
+ * segmentfault [Github装逼指南——Travis CI 和 Codecov](http://segmentfault.com/a/1190000004415437)
+
+> 好久没写博客了，趁着年前空闲的时间来一篇轻松点的东西。  最近工作中积累了一些Angular组件打算整一整把他们开源了，既然要开源那么代码可靠性就很重要了，单测不能少，为了保证每次提交的代码都能很好的运行，持续集成不能少。之前看到很多开源项目介绍中都有一些单测覆盖率和build结果的图标，就像这样：觉得挺酷的。打算在自己的开源组件中也整一套。  经过Google决定使用TravisCI来进行持续集成，Codecov来统计单测覆盖率。 T
+
+ * segmentfault [.bashrc和.bash_profile之间的不同](http://segmentfault.com/a/1190000004413842)
+
+> 区分两者之间的区别，首先要搞清楚`login shell`和`nologin shell`之间的区别。 login shell当你通过终端输入用户名和密码，然后进入到terminal，这时候进入的shell环境就叫做是login shell，例如，通过`ssh`远程进入到主机。 nologin shell顾名思义就是不需要输入用户名密码而进入的shell环境，例如你已经登陆了你的桌面电脑，这时候在应用管理器中找到`termianl`图标，然后双击打开终端，也就是通过像`gnome`,`KDE`这
+
+ * segmentfault [[Docker 全程指南<译>]：第一，安装Docker](http://segmentfault.com/a/1190000004412382)
+
+> 以下内容主要是针对Debian的安装 Debian支持Docker支持以下版本的Debian：   Debian testing stretch 64bit   Debian 80 Jessie 64bit   Debian 77 Wheezy 64bit 注意：如果你之前安装的Docker使用了 `apt`，请确认已经将 `apt` 源升级到了一个比较新的 `apt` 源。这里的安装方式主要是通过`apt` 源来安装，以后Docker有更新的时候，只需要 `aptget update` 就行了。所以说才要求更新 `apt` 源。 安装前提条件首先，你电
+
+ * segmentfault [(译)响应式图片— srcset 和 sizes 属性](http://segmentfault.com/a/1190000004411869)
+
+> 在响应式网页设计的革命中，图片看起来是被浪潮落下的一个事物。直到最近，根据不同的屏幕尺寸和像素密度来提供不同的图片还是没有完全实现。``元素展示了很多改变这个局面的希望，但无论picture元素是否可以完全使用，现在有两个对于响应式图片很关键的两个属性 —— `srcset` 和`sizes`。  `srcset`属性`srcset`属性允许我们可以提供一系列也许可以被浏览器使用的图片资源。我们提供一个以逗号为分割的图片list，userag
+
