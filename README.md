@@ -1,3 +1,3 @@
 # CondaBlog
 
-![](/img/heart.gif)
+![](/heart.gif)
