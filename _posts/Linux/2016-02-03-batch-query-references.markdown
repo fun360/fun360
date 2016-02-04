@@ -41,10 +41,8 @@ excerpt:
 
 <div class = "query">
   示例：<span class = "text-danger">目前仅支持每个关键词显示20条记录！</span><br/><small>版本： 1.0.0 beta 更新于：2016-2-4</small>
-  <pre>ADH4
-rs2988084
-alcohol
-  </pre>
+  <pre>bone density
+rs2988084</pre>
   <textarea class="form-control" rows="10" placeholder = "#请输入查询关键词，每行一个"></textarea>
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
