@@ -11,6 +11,9 @@ excerpt:
   .query, .result {
     padding: 1em;
   }
+  .query > button {
+    margin-top:1em;
+  }
   .result > ul > li {
     list-style-type:none;
     margin-bottom:0.5em;
@@ -70,7 +73,7 @@ var query  = function(keyword){
                   success:function(data){
                       console.log(data)
                       var title = $(data).find('[Name="Title"]').text()
-                      var url = "http://www.ncbi.nlm.nih.gov/pubmed/?term="+$(data).find('[Name="pubmed"]').text()
+                      var url = "http://www.ncbi.nlm.nih.gov/pubmed/?term="+ids[i]
                       var author = $(data).find('[Name="LastAuthor"]').text()
                       var journal = $(data).find('[Name="Source"]').text()
                       var date = $(data).find('[Name="PubDate"]').text()
