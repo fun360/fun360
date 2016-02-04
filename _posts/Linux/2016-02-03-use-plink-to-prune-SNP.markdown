@@ -9,6 +9,7 @@ keywords: SNP
 
 ## 1、下载1000 Genome数据并解压
  - 下载plink 1.9 [右键在新窗口打开](https://www.cog-genomics.org/plink2)
+
 ```shell
 for chr in `seq 1 22`
 do
