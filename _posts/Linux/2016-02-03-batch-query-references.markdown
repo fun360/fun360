@@ -76,10 +76,9 @@ var query  = function(keyword){
                       var date = $(data).find('[Name="PubDate"]').text()
                       var title = $("<h5></h5>").append($("<a></a>").html(title).attr("href",url).attr('target','_blank')).addClass("title")
                       var author = $("<span></span>").html("Last Author: "+author).addClass("author")
-                      var journal = $("<span></span>").html("[" + journal + "]").addClass("journal")
-                      var date = $("<span></span>").html("Publish Date: " + date).addClass("pubdate")
+                      var journal = $("<span></span>").html("Publish Date: " + date + "    [" + journal + "]").addClass("journal")
                       var readmore = $("<span></span>").html("Read More").attr("href",url).attr('target','_blank')
-                      var item = $("<li></li>").append(title).append(author).append(date).append(journal)
+                      var item = $("<li></li>").append(title).append(author).append(journal).append(readmore)
                       totalItem.append(item)
                   }
               })
