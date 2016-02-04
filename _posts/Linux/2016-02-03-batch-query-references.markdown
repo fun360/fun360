@@ -29,7 +29,7 @@ excerpt:
   .result > ul > li > .author {
     padding-left:1em;
   }
-  .process {
+  .heart {
     display: none
   }
 </style>
@@ -37,7 +37,7 @@ excerpt:
   <textarea class="form-control" rows="10"></textarea>
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
-<div class="progress">
+<div class="heart">
     <img src = "/img/heart.gif">
 </div>
 <div class = "result">
