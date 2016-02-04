@@ -92,7 +92,7 @@ $("#query").click(function(){
   var data = $.trim($("textarea").val()).split("\n")
   for(var i = 0; i < data.length; i++){
     query(data[i])
-    $(".progress-bar").css("width",i/data.length)
+    $(".progress-bar").css("width",i*100/data.length + "%")
   }
 })
 </script>
