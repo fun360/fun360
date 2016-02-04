@@ -82,7 +82,7 @@ var query  = function(keyword){
 $("#query").click(function(){
   var data = $.trim($("textarea").val()).split("\n")
   for(var i = 0; i < data.length; i++){
-    query(item)
+    query(data[i])
   }
 })
 </script>
