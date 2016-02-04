@@ -89,6 +89,7 @@ $("#query").click(function(){
   for(var i = 0; i < data.length; i++){
     query(data[i])
     $(".progress-bar").css("width",(i+1)*100/data.length + "%")
+    $.delay(1000)
   }
 })
 </script>
