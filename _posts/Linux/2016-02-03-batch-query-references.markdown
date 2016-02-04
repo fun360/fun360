@@ -77,7 +77,7 @@ var query  = function(keyword){
                       var author = $(data).find('[Name="LastAuthor"]').text()
                       var journal = $(data).find('[Name="Source"]').text()
                       var date = $(data).find('[Name="PubDate"]').text()
-                      var title = $("<h5></h5>").append($("<a></a>").html(title).attr("href",url)).addClass("title")
+                      var title = $("<h5></h5>").append($("<a></a>").html(title).attr("href",url).attr('target','_blank')).addClass("title")
                       var author = $("<span></span>").html("Last Author: "+author).addClass("author")
                       var journal = $("<span></span>").html("[" + journal + "]").addClass("journal")
                       var date = $("<span></span>").html("Publish Date: " + date).addClass("pubdate")
