@@ -38,8 +38,7 @@ excerpt:
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
 <div class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-  </div>
+    <img src = "/img/heart.gif">
 </div>
 <div class = "result">
 </div>
@@ -89,7 +88,6 @@ $("#query").click(function(){
   setTimeout(function(){
     var data = $.trim($("textarea").val()).split("\n")
     for(var i = 0; i < data.length; i++){
-      $(".progress-bar").css("width",(i+1)*100/data.length + "%")
       query(data[i])
     }
   }, 300);
