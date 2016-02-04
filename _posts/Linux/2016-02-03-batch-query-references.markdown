@@ -84,12 +84,13 @@ var query  = function(keyword){
 
 $("#query").click(function(){
   $(".query").hide()
-  $(".progress").show()
+  $(".heart").show()
   setTimeout(function(){
     var data = $.trim($("textarea").val()).split("\n")
     for(var i = 0; i < data.length; i++){
       query(data[i])
     }
+    $(".heart").hide()
   }, 300);
 
 })
