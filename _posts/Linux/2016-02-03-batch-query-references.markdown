@@ -24,7 +24,7 @@ excerpt:
   }
   .result > ul > li > span {
     font-size: 0.8em;
-    color: #DDD;
+    color: #BBB;
   }
 </style>
 <div class = "query">
