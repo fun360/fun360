@@ -38,8 +38,10 @@ excerpt:
   <textarea class="form-control" rows="10"></textarea>
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
-<div class="heart">
-    <img src = "/img/heart.gif">
+<div class="text-center">
+  <div class="heart">
+      <img src = "/img/heart.gif">
+  </div>
 </div>
 <div class = "result">
 </div>
