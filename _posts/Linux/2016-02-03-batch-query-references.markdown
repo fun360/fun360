@@ -7,7 +7,11 @@ categories: linux
 keywords: NCBI文献批量查询
 excerpt: 
 ---
-
+<style>
+  .query, .result {
+    padding: 1em;
+  }
+</style>
 <div class = "query">
   <textarea class="form-control" rows="10"></textarea>
   <button type="button" class="btn btn-primary btn-lg btn-block">搜  索</button>
