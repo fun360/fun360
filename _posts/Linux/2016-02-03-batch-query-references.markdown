@@ -32,7 +32,7 @@ excerpt:
 </style>
 <div class = "query">
   <textarea class="form-control" rows="10"></textarea>
-  <button type="button" class="btn btn-primary btn-lg btn-block">搜  索</button>
+  <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
 <div class = "result">
 </div>
@@ -74,7 +74,11 @@ var query  = function(keyword){
             async:false
         })
     }
-    $(".result").append($("<h4></h4>").html(keyword))
-    $(".result").append(totalItem)
+    $(".result").prepend(totalItem)
+    $(".result").prepend($("<h4></h4>").html(keyword))
 }
+$("#query").click(function(){
+  var data = $.trim($("textarea").val()).split("\n")
+  $.each(data,function(i,item){query(item)})
+})
 </script>
