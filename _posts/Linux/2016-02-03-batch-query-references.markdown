@@ -87,12 +87,12 @@ var query  = function(keyword){
 }
 
 $("#query").click(function(){
-  $(".query").css("display","none")
-  $(".progress").css("display","block")
+  $(".query").hide()
+  $(".progress").show()
   var data = $.trim($("textarea").val()).split("\n")
   for(var i = 0; i < data.length; i++){
     query(data[i])
-    $(".progress-bar").css("width",i*100/data.length + "%")
+    $(".progress-bar").css("width",(i+1)*100/data.length + "%")
   }
 })
 </script>
