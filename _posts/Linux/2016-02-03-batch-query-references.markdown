@@ -33,15 +33,12 @@ excerpt:
     display: none;
     margin: auto;
   }
-  .query > textarea::-webkit-input-placeholder:after{
-    content : "#请输入查询关键词，一行一个，如：\AADH4\Ars2980333\A"
-  }
-  .query > textarea:-moz-placeholder:after{
-    content : "#请输入查询关键词，一行一个，如：\AADH4\Ars2980333\A"
-  }
+
 </style>
 <div class = "query">
-  <textarea class="form-control" rows="10"></textarea>
+  示例：
+  <pre>ADH4\nrs2988084</pre>
+  <textarea class="form-control" rows="10" placeholder = "#请输入查询关键词，每行一个"></textarea>
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
 <div class="text-center">
