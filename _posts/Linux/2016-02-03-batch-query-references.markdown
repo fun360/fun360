@@ -27,11 +27,8 @@ excerpt:
   }
   .result > ul > li > span {
     font-size: 0.8em;
-    color: #BBB;
+    color: #888;
     display: block;
-  }
-  .result > ul > li > .author {
-    padding-left:1em;
   }
   .heart {
     display: none;
