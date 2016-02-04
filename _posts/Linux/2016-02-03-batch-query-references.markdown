@@ -37,7 +37,11 @@ excerpt:
 </style>
 <div class = "query">
   示例：
-  <pre>ADH4\nrs2988084</pre>
+  <pre>ADH4
+  rs2988084
+  alcohol
+  </pre>
+  <p class = "text-danger">目前仅支持每个关键词显示20条记录！</p>
   <textarea class="form-control" rows="10" placeholder = "#请输入查询关键词，每行一个"></textarea>
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
