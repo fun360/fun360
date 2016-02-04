@@ -78,7 +78,8 @@ var query  = function(keyword){
           })
           $(".result").prepend(totalItem)
           $(".result").prepend($("<h4></h4>").html(keyword))
-        }
+        },
+        async:false
     })
 }
 
