@@ -75,9 +75,9 @@ var query  = function(keyword){
                       var journal = $(data).find('[Name="Source"]').text()
                       var date = $(data).find('[Name="PubDate"]').text()
                       var title = $("<h5></h5>").append($("<a></a>").html(title).attr("href",url).attr('target','_blank')).addClass("title")
-                      var author = $("<span></span>").html("Last Author: "+author).addClass("author")
-                      var journal = $("<span></span>").html("Publish Date: " + date + "    [" + journal + "]").addClass("journal")
-                      var readmore = $("<span></span>").html("Read More").attr("href",url).attr('target','_blank')
+                      var author = $("<span></span>").html("通讯作者: "+author).addClass("author")
+                      var journal = $("<span></span>").html("发表日期: " + date + "    [" + journal + "]").addClass("journal")
+                      var readmore = $("<span></span>").append($("<a></a>").html("全文").attr("href",url).attr('target','_blank'))
                       var item = $("<li></li>").append(title).append(author).append(journal).append(readmore)
                       totalItem.append(item)
                   }
