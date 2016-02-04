@@ -15,8 +15,8 @@ excerpt:
     margin-top:1em;
   }
   .result > ul > li {
-    list-style-type:none;
-    margin-bottom:0.5em;
+    list-style-type:decimal;
+    margin-bottom:1.5em;
   }
   .result > ul > li > h5 {
     padding:0;
@@ -42,7 +42,7 @@ excerpt:
 <div class = "query">
   示例：<span class = "text-danger">目前仅支持每个关键词显示20条记录！</span><br/>
   <pre>bone density
-rs2988084</pre>
+rs6311</pre>
   <textarea class="form-control" rows="10" placeholder = "#请输入查询关键词，每行一个"></textarea>
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
 </div>
