@@ -37,7 +37,7 @@ excerpt:
     display:block;
     content : "#请输入查询关键词，一行一个，如：\AADH4\Ars2980333\A"
   }
-  .query > textarea::-moz-placeholder:after{
+  .query > textarea:-moz-placeholder:after{
     display:block;
     content : "#请输入查询关键词，一行一个，如：\AADH4\Ars2980333\A"
   }
