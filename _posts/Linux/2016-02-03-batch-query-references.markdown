@@ -88,11 +88,11 @@ var query  = function(keyword){
 
 $("#query").click(function(){
   $(".query").css("display","none")
-  $(".process").css("display","block")
+  $(".progress").css("display","block")
   var data = $.trim($("textarea").val()).split("\n")
   for(var i = 0; i < data.length; i++){
     query(data[i])
-    $(".process-bar").css("width",i/data.length)
+    $(".progress-bar").css("width",i/data.length)
   }
 })
 </script>
