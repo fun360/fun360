@@ -30,7 +30,8 @@ excerpt:
     padding-left:1em;
   }
   .heart {
-    display: none
+    display: none;
+    margin: auto;
   }
 </style>
 <div class = "query">
@@ -71,8 +72,7 @@ var query  = function(keyword){
                       var date = $("<span></span>").html("Publish Date: " + date).addClass("pubdate")
                       var item = $("<li></li>").append(title).append(author).append(date).append(journal)
                       totalItem.append(item)
-                  },
-                  async:false
+                  }
               })
           })
           $(".result").prepend(totalItem)
