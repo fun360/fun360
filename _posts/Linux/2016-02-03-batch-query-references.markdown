@@ -92,7 +92,7 @@ $("#query").click(function(){
   var data = $.trim($("textarea").val()).split("\n")
   for(var i = 0; i < data.length; i++){
     query(data[i])
-    $(".process-bar").css("wodth",i/data.length)
+    $(".process-bar").css("width",i/data.length)
   }
 })
 </script>
