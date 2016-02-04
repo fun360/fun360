@@ -86,10 +86,13 @@ var query  = function(keyword){
 $("#query").click(function(){
   $(".query").hide()
   $(".progress").show()
-  var data = $.trim($("textarea").val()).split("\n")
-  for(var i = 0; i < data.length; i++){
-    query(data[i])
-    $(".progress-bar").css("width",(i+1)*100/data.length + "%")
-  }
+  setTimeout(function(){
+    var data = $.trim($("textarea").val()).split("\n")
+    for(var i = 0; i < data.length; i++){
+      query(data[i])
+      $(".progress-bar").css("width",(i+1)*100/data.length + "%")
+    }
+  }, 300);
+
 })
 </script>
