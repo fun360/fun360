@@ -13,7 +13,12 @@ excerpt:
   }
   .result > ul > li {
     list-style-type:none;
-    background-color: #EEE;
+  }
+  .result > ul > li > h5 > .title {
+    font-size: 1em;
+  }
+  .result > ul > li > span {
+    font-size: 0.8em;
   }
 </style>
 <div class = "query">
