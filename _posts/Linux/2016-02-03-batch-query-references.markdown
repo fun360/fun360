@@ -89,8 +89,10 @@ $("#query").click(function(){
   setTimeout(function(){
     var data = $.trim($("textarea").val()).split("\n")
     for(var i = 0; i < data.length; i++){
-      query(data[i])
       $(".progress-bar").css("width",(i+1)*100/data.length + "%")
+      setTimeout(function(){
+        query(data[i])
+      },100)
     }
   }, 300);
 
