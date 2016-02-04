@@ -28,6 +28,7 @@ excerpt:
   .result > ul > li > span {
     font-size: 0.8em;
     color: #BBB;
+    display: block;
   }
   .result > ul > li > .author {
     padding-left:1em;
