@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NCBI文献批量查询"
+title:  "NCBI Pubmed文献批量查询工具"
 date:   2016-02-03 12:13:00
 author: 吴珂皓
 categories: linux
@@ -38,6 +38,7 @@ excerpt:
   }
 
 </style>
+<h5>版本 1.0.0 beta</h5>
 <div class = "query">
   示例：<span class = "text-danger">目前仅支持每个关键词显示20条记录！</span>
   <pre>ADH4
