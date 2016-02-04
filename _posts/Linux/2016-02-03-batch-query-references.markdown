@@ -29,10 +29,17 @@ excerpt:
   .result > ul > li > .author {
     padding-left:1em;
   }
+  .process {
+    display: none
+  }
 </style>
 <div class = "query">
   <textarea class="form-control" rows="10"></textarea>
   <button type="button" id = "query" class="btn btn-primary btn-lg btn-block">搜  索</button>
+</div>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+  </div>
 </div>
 <div class = "result">
 </div>
@@ -80,9 +87,12 @@ var query  = function(keyword){
 }
 
 $("#query").click(function(){
+  $(".query").css("display","none")
+  $(".process").css("display","block")
   var data = $.trim($("textarea").val()).split("\n")
   for(var i = 0; i < data.length; i++){
     query(data[i])
+    $(".process-bar").css("wodth",i/data.length)
   }
 })
 </script>
