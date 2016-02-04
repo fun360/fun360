@@ -26,6 +26,9 @@ excerpt:
     font-size: 0.8em;
     color: #BBB;
   }
+  .result > ul > li > .author {
+    padding-left:1em;
+  }
 </style>
 <div class = "query">
   <textarea class="form-control" rows="10"></textarea>
