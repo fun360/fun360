@@ -13,6 +13,11 @@ excerpt:
   }
   .result > ul > li {
     list-style-type:none;
+    margin-bottom:0.5em;
+  }
+  .result > ul > li > h5 {
+    padding:0;
+    margin:0;
   }
   .result > ul > li > h5 > .title {
     font-size: 1em;
