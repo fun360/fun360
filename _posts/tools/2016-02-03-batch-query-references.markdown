@@ -18,6 +18,11 @@ excerpt:
     list-style-type:decimal;
     margin-bottom:1.5em;
   }
+  .result > ul > li:hover {
+    list-style-type:decimal;
+    margin-bottom:1.5em;
+    background-color: #EEE;
+  }
   .result > ul > li > h5 {
     padding:0;
     margin:0;
