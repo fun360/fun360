@@ -57,7 +57,7 @@ excerpt:
 </style>
 
 <div class = "query">
-  示例：<small class = "text-danger">目前仅支持每个关键词显示20条记录，关键词数量20个，每个关键词最多显示50条记录。</small>
+  示例：<small class = "text-danger">目前仅支持20行关键词，每行关键词最多显示50条记录。</small>
   <pre>bone density
 rs6311</pre>
   <textarea class="form-control" rows="10" placeholder = "#请输入查询关键词，每行一个"></textarea>
