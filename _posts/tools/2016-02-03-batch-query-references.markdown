@@ -10,6 +10,7 @@ excerpt:
 <style>
   textarea {
    font-weight: bold;
+   color: #111;
   }
   .query, .result {
     padding: 1em;
