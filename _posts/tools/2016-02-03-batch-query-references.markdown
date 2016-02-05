@@ -8,6 +8,9 @@ keywords: NCBI文献批量查询
 excerpt: 
 ---
 <style>
+  textarea {
+   font-weight: bold;
+  }
   .query, .result {
     padding: 1em;
   }
