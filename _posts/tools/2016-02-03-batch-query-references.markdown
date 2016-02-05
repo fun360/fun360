@@ -71,11 +71,20 @@ rs6311</pre>
       <p>搜索中...</p>
   </div>
 </div>
-<p class="text-right save"><a>保存为excel格式</a></p>
+<div class="row">
+  <div class="col-md-6">
+    <p class="text-left refresh"><a>重新检索</a></p>
+  </div>
+  <div class="col-md-6">
+    <p class="text-right save"><a>保存为excel格式</a></p>
+  </div>
+</div>
 <div class = "result">
 </div>
 
 **版本日志：**
+  - **2016/02/06 版本：1.1.1**
+     - 增加重新搜索按钮
 
   - **2016/02/05 版本：1.1.0**
      - 支持excel文件保存至本地
@@ -141,7 +150,11 @@ $("#query").click(function(){
       $(".heart").hide()
     }
   }, 300);
-
+})
+$(".refresh").click(function(){
+  $(".result").empty()
+  $(".query").show()
+  $(".save").hide()
 })
 </script>
 <script type="text/javascript" src="/js/xlsx.core.min.js"></script>
