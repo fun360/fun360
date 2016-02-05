@@ -44,6 +44,7 @@ excerpt:
     cursor: pointer;
     padding: 0;
     margin: 0;
+    display: none;
   }
   .author:before {
     content: "作者："
