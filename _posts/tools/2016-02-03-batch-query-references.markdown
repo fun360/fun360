@@ -39,7 +39,7 @@ excerpt:
     display: none;
     margin: auto;
   }
-  .save {
+  .save, .refresh {
     font-size: 0.8em;
     cursor: pointer;
     padding: 0;
@@ -144,6 +144,7 @@ $("#query").click(function(){
         query(data[i])
         $(".heart").hide()
         $(".save").show()
+        $(".refresh").show()
       }
     }else{
       $(".query").show()
@@ -155,6 +156,7 @@ $(".refresh").click(function(){
   $(".result").empty()
   $(".query").show()
   $(".save").hide()
+  $(".refresh").hide()
 })
 </script>
 <script type="text/javascript" src="/js/xlsx.core.min.js"></script>
