@@ -2,7 +2,7 @@
 layout: post
 title:  "NCBI Pubmed文献批量查询工具"
 date:   2016-02-03 12:13:00
-author: 吴珂皓 版本： 1.1.0 beta 发布于：2016-2-5
+author: 吴珂皓 版本： 1.1.1 beta 发布于：2016-2-5
 categories: tools
 keywords: NCBI文献批量查询
 excerpt: 
@@ -58,6 +58,7 @@ excerpt:
 </style>
 
 <div class = "query">
+  <small>Chrome浏览器(推荐使用)下载 [http://pan.baidu.com/s/1nu09u5r](http://pan.baidu.com/s/1nu09u5r) 密码：ngm5</small>
   示例：<small class = "text-danger">目前仅支持20行关键词，每行关键词最多显示50条记录。</small>
   <pre>bone density
 rs6311</pre>
