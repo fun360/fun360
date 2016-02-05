@@ -238,6 +238,7 @@ $(".save").click(function(){
       //var data = [title,journal,author,date,url]
     })
     data.push(['免责声明：所有文献均搜索自PubMed，本站不对文献可靠性负责。吴珂皓',null,null,null,null,null])
+    data.push(['免费PubMed NCBI文献批量搜索：http://www.how-to-code.info/tools/batch-query-references.html',null,null,null,null,null])
     wb.SheetNames.push("Search Result")
     wb.Sheets["Search Result"] = sheet_from_array_of_arrays(data)
     var wbout = XLSX.write(wb, {bookType:'xlsx', bookSST:true, type: 'binary'})
