@@ -58,7 +58,7 @@ excerpt:
 </style>
 
 <div class = "query">
-  <small>Chrome浏览器(推荐使用)下载 <a href="http://pan.baidu.com/s/1nu09u5r">http://pan.baidu.com/s/1nu09u5r</a>密码：ngm5</small>
+  <small>Chrome浏览器(推荐使用)下载 <a href="http://pan.baidu.com/s/1nu09u5r">http://pan.baidu.com/s/1nu09u5r</a>密码：ngm5</small><br/>
   示例：<small class = "text-danger">目前仅支持20行关键词，每行关键词最多显示50条记录。</small>
   <pre>bone density
 rs6311</pre>
