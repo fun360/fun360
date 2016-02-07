@@ -7,7 +7,7 @@ layout: default
   <h1 class="page-heading">最新文章</h1>
   
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories["dailynews"] limit:20 %}
       <li>
         <h2 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
