@@ -3,7 +3,7 @@ layout: post
 title:  "运用贝叶斯方法预测PM2.5 - 基于中国PM2.5数据"
 date:   2015-09-16 22:13:00
 author: 吴珂皓
-categories: r
+categories: other
 keywords: 贝叶斯,PM2.5,预测
 excerpt: 运用贝叶斯方法预测PM2.5
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "用1000 Genome数据和plink来做SNP Prune"
 date:   2016-02-03 20:54 PM
 author: 吴珂皓
-categories: linux
+categories: other
 keywords: SNP
 ---
 

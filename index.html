@@ -5,19 +5,16 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">往期大数据日报</h1>
-  
   <ul class="post-list">
-    {% for post in site.categories["dailynews"] limit:20 %}
+    {% for post in site.categories["dailynews"] limit:10 %}
       <li>
-        <h2 class="post-title">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta"><a href="{{ post.url | prepend: site.baseurl }}" class="post-read-full">阅读全文<smalL>>></small> </a>{{ post.date | date: "%Y年%m月%d日 %H:%M:%S" }} 作者：{{ post.author }}</span>
-        <hr>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
   </ul>
 
-  
+  {% for post in site.categories['dailynews'] limit 1 %}
+    <p>{{ post.content }}</p>
+  {% endfor %}  
 
 </div>

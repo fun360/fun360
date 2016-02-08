@@ -3,7 +3,7 @@ layout: post
 title:  "用IDM下载udemy视频"
 date:   2016-01-31 09:09:00
 author: Conda
-categories: linux
+categories: other
 keywords: udemy
 excerpt: 如何使用udemy
 ---

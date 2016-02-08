@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "NCBI Pubmed文献批量查询工具"
+title:  "生物信息学分析网址大全"
 date:   2016-02-03 12:13:00
-author: 吴珂皓 版本： 1.1.1 beta 发布于：2016-2-5
+author: 吴珂皓
 categories: tools
-keywords: NCBI文献批量查询
+keywords: 生物信息学分析网址大全
 excerpt: 
 ---
 

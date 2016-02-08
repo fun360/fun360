@@ -3,7 +3,7 @@ layout: post
 title:  "How to install dos2unix"
 date:   2015-09-02 11:09:00
 author: Kehao Wu
-categories: linux
+categories: other
 keywords: dos2unix
 excerpt: How to install dos2unix
 ---

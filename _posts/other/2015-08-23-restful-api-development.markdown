@@ -3,7 +3,7 @@ layout: post
 title:  "RESTful API开发所思"
 date:   2015-08-23 22:39:32
 author: 吴珂皓
-categories: restful
+categories: other
 keywords: 谷歌代码规范,JSON风格指南,RESTful,json,开发,代码风格
 excerpt: 谷歌代码规范 RESTful API开发
 ---

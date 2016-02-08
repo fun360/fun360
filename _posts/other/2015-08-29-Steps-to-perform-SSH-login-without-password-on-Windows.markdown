@@ -3,7 +3,7 @@ layout: post
 title:  "Steps to perform SSH login without password on Windows"
 date:   2015-08-29 17:15:00
 author: Kehao Wu
-categories: linux
+categories: other
 keywords: SSH, security
 excerpt: Steps to perform SSH login without password on Linux
 ---

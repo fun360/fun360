@@ -3,7 +3,7 @@ layout: post
 title:  "用R语言画一个曼哈顿图"
 date: 2015-09-16 22:13:00
 author: 吴珂皓
-categories: r
+categories: other
 keywords: R语言,曼哈顿图,GWAS,生物信息学
 excerpt: 用R语言画一个曼哈顿图
 ---

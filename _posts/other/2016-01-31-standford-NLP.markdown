@@ -3,7 +3,7 @@ layout: post
 title:  "斯坦福大学深度学习与自然语言处理 笔记"
 date: 2016-01-31 13:22:05
 author: 我爱自然语言处理http://www.52nlp.cn
-categories: nlp
+categories: other
 ---
 
 斯坦福大学在三月份开设了一门“深度学习与自然语言处理”的课程：CS224d: Deep Learning for Natural Language Processing，授课老师是青年才俊 Richard Socher，他本人是德国人，大学期间涉足自然语言处理，在德国读研时又专攻计算机视觉，之后在斯坦福大学攻读博士学位，拜师NLP领域的巨牛 Chris Manning 和 Deep Learning 领域的巨牛 Andrew Ng，其博士论文是《Recursive Deep Learning for Natural Language Processing and Computer Vision》，也算是多年求学生涯的完美一击。毕业后以联合创始人及CTO的身份创办了MetaMind，作为AI领域的新星创业公司，MetaMind创办之初就拿了800万美元的风投，值得关注。

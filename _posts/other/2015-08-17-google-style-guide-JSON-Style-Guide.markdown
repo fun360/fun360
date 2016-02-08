@@ -3,7 +3,7 @@ layout: post
 title:  "谷歌代码规范 JSON风格指南"
 date:   2015-08-17 10:58:32
 author: darcyliu
-categories: restful
+categories: other
 keywords: 谷歌代码规范,JSON风格指南,RESTful,json,开发,代码风格
 excerpt: 谷歌代码规范 JSON风格指南
 ---

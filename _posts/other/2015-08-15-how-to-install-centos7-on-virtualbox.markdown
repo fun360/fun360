@@ -3,7 +3,7 @@ layout: post
 title:  "如何在VirtualBox上安装Centos7(带samba服务器)"
 date:   2015-08-15 12:13:00
 author: 吴珂皓
-categories: linux
+categories: other
 keywords: VirtualBox, Centos7, samba, Linux
 excerpt: 怎样在VirtualBox上安装Centos7服务器，并且配置好samba服务
 ---
