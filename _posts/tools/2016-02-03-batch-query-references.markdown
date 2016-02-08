@@ -59,6 +59,10 @@ excerpt:
   .journal:before {
     content: "发表杂志：";
   }
+  .result > h4 >a {
+    font-size: 0.8em;
+    margin-left: 0.3em;
+  }
 </style>
 
 <div class = "query">
@@ -99,6 +103,8 @@ rs6311</pre>
      - 支持每个关键字20条记录搜索pubmed数据库
      - 支持搜索多个关键字
 
+[**生物信息学分析网址大全**](/tools/bio-websites.html)
+
 <script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
 <script>
 var query  = function(keyword){
@@ -131,8 +137,9 @@ var query  = function(keyword){
                   }
               })
           })
+          var biogridurl = "http://thebiogrid.org/search.php?search="+keyword+"&organism=all"
           $(".result").prepend(totalItem)
-          $(".result").prepend($("<h4></h4>").html(keyword))
+          $(".result").prepend($("<h4></h4>").append($("<b></b>").html(keyword)).append($("<a></a>").html("TheBioGrid").attr("href",biogridurl).attr('target','_blank')))
         },
         async:false
     })
@@ -227,7 +234,7 @@ $(".save").click(function(){
     var wb = new Workbook()
     var data = [['KeyWords','Title','Journal','Author','Date','Link']]
     var kws = []
-    $(".result h4").each(function(i,v){
+    $(".result h4 b").each(function(i,v){
       kws.push($(v).html())
     })
     $(".result ul").each(function(i,v){
