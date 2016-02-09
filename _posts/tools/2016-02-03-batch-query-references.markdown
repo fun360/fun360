@@ -2,7 +2,7 @@
 layout: post
 title:  "NCBI Pubmed文献批量查询工具"
 date:   2016-02-03 12:13:00
-author: 吴珂皓 版本： 1.1.1 beta 发布于：2016-2-5
+author: 吴珂皓 版本： 1.1.2 beta 发布于：2016-2-9
 categories: tools
 keywords: NCBI文献批量查询
 excerpt: 
@@ -96,6 +96,11 @@ rs6311</pre>
 </div>
 
 **版本日志：**
+  
+  - **2016/02/09 版本：1.1.2**
+     - 增加收起按钮
+     - 增加BioGrid和NCBI基因链接
+
   - **2016/02/06 版本：1.1.1**
      - 增加重新搜索按钮
 
