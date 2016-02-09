@@ -18,23 +18,26 @@ excerpt:
   .query > button {
     margin-top:1em;
   }
-  .result > ul > li {
+  .result {
+    margin-bottom: 5em;
+  }
+  .result > div > ul > li {
     list-style-type:decimal;
     margin-bottom:1.5em;
   }
-  .result > ul > li:hover {
+  .result > div > ul > li:hover {
     list-style-type:decimal;
     margin-bottom:1.5em;
     background-color: #EEE;
   }
-  .result > ul > li > h5 {
+  .result > div > ul > li > h5 {
     padding:0;
     margin:0;
   }
-  .result > ul > li > h5 > .title {
+  .result > div > ul > li > h5 > .title {
     font-size: 1em;
   }
-  .result > ul > li > span {
+  .result > div > ul > li > span {
     font-size: 0.8em;
     color: #888;
     display: block;
@@ -59,10 +62,11 @@ excerpt:
   .journal:before {
     content: "发表杂志：";
   }
-  .result > h4 >a {
-    font-size: 0.8em;
-    margin-left: 0.3em;
+  .result > div > h4 >a {
+    font-size: 0.5em;
+    margin-left: 1em;
     color: green;
+    cursor: pointer;
   }
 </style>
 
@@ -116,7 +120,7 @@ var query  = function(keyword){
         type:'get',
         success:function(xmlDoc){
           var ids = $.trim($(xmlDoc).find('IdList').text()).split("\n")
-          var totalItem = $("<ul></ul>")
+          var totalItem = $("<ul></ul>").attr("id",keyword)
           $.each(ids,function(i,v){
               $.ajax({
                   url:"http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=" + ids[i],
@@ -142,8 +146,20 @@ var query  = function(keyword){
           var geneurl = "http://www.ncbi.nlm.nih.gov/gene/?term=" + keyword
           var biogrid = $("<a></a>").html("TheBioGrid").attr("href",biogridurl).attr('target','_blank')
           var ncbigene = $("<a></a>").html("Gene").attr("href",geneurl).attr('target','_blank')
-          $(".result").prepend(totalItem)
-          $(".result").prepend($("<h4></h4>").append($("<b></b>").html(keyword)).append(biogrid).append(ncbigene))
+          var button = $("<a></a>").attr("id",keyword).html("收起").click(function(){
+            var $this = $(this)
+            if ($this.html() == "收起"){
+              $this.parent().siblings().css("display","none")
+            }else{
+              $this.parent().siblings().css("display","block")
+            }
+            var html = $this.html() == "收起" ? "展开" : "收起"
+            $this.html(html)
+            return $this
+          })
+          var t = $("<h4></h4>").append($("<b></b>").html(keyword)).append(biogrid).append(ncbigene).append(button)
+          var bigItem = $("<div></div>").append(t,totalItem)
+          $(".result").prepend(bigItem)
         },
         async:false
     })
@@ -238,10 +254,10 @@ $(".save").click(function(){
     var wb = new Workbook()
     var data = [['KeyWords','Title','Journal','Author','Date','Link']]
     var kws = []
-    $(".result h4 b").each(function(i,v){
+    $(".result div h4 b").each(function(i,v){
       kws.push($(v).html())
     })
-    $(".result ul").each(function(i,v){
+    $(".result div ul").each(function(i,v){
       /*
       var title = ['title']
       var url = ['url']
