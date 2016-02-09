@@ -131,6 +131,7 @@ var query  = function(keyword){
         type:'get',
         success:function(xmlDoc){
           var ids = $.trim($(xmlDoc).find('IdList').text()).split("\n")
+          var nn = $.trim($(xmlDoc).find('TermSet > Count').text())
           var totalItem = $("<ul></ul>").attr("id",keyword)
           $.each(ids,function(i,v){
               $.ajax({
@@ -156,9 +157,11 @@ var query  = function(keyword){
           var biogridurl = "http://thebiogrid.org/search.php?search="+keyword+"&organism=all"
           var geneurl = "http://www.ncbi.nlm.nih.gov/gene/?term=" + keyword
           var ncbiurl = "http://www.ncbi.nlm.nih.gov/gquery/?term=" + keyword
+          var counturl = "http://www.ncbi.nlm.nih.gov/pubmed/?term=" + keyword
           var biogrid = $("<a></a>").html("TheBioGrid").attr("href",biogridurl).attr('target','_blank')
           var ncbigene = $("<a></a>").html("Gene").attr("href",geneurl).attr('target','_blank')
           var ncbi = $("<a></a>").html("NCBI").attr("href",ncbiurl).attr('target','_blank')
+          var count = $("<a></a>").html("总" + nn +"篇").attr("href",counturl).attr('target','_blank')
           var button = $("<a></a>").attr("id",keyword).html("收起").click(function(){
             var $this = $(this)
             if ($this.html() == "收起"){
@@ -170,7 +173,7 @@ var query  = function(keyword){
             $this.html(html)
             return $this
           })
-          var t = $("<h4></h4>").append($("<b></b>").html(keyword)).append(ncbi).append(biogrid).append(ncbigene).append(button)
+          var t = $("<h4></h4>").append($("<b></b>").html(keyword)).append(count).append(ncbi).append(biogrid).append(ncbigene).append(button)
           var bigItem = $("<div></div>").append(t,totalItem)
           $(".result").prepend(bigItem)
         },
