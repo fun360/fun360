@@ -22,6 +22,23 @@
                 <p>广告位招商<a href="mailto:business@rzaixian.com">business@rzaixian.com</a></p>
           </div>
 
+          <div class = "history">
+            <p>浏览记录</p>
+            <div id = "history">
+            </div>
+          </div>
+
+          <ul class = "list-group">
+            <li class = "list-group-item active">
+              往期数据科学家日报
+            </li>
+             {% for post in site.categories["dailynews"] limit:5 %}
+            <li class = "list-group-item">
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%Y年%m月%d日" }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
         </div>
       </div>
 

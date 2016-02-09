@@ -66,12 +66,14 @@ footer {
   color: #758AB5;
 }
 
-.ad {
+.ad, .history {
   margin-left: 30px;
-  margin-top: 10px;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .share {
+  margin-top: 2em;
   margin-left: 30px;
   padding: 0.3em;
   background-color: #CCC;
@@ -86,4 +88,11 @@ footer {
 
 .reference > a, .reference > a:visited {
   color: #FFF;
+}
+
+.history-item, .history>p {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
 }

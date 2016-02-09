@@ -41,7 +41,25 @@
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript">
   $("article li a").attr("target","_blank")
-</script>
+  var l = function(){
+    var t = JSON.parse(window.localStorage.getItem("history"))
+    var r =  t == undefined ? [] : t
+    return r
+  }
+  var w = function(){
+    v.push({'title':$("title").html(),'url':window.location.pathname})
+    if (v.length > 5){
+      v.shift()
+    }
+    window.localStorage.setItem('history',JSON.stringify(v))
+  }
+  var v = l()
+  $.each(v, function(i,j){
+    var d = $("<p></p>").addClass("history-item").append($("<a></a>").html(j['title']).attr('href',j['url']))
+    $("#history").prepend(d)
+  })
+  w()
+  </script>
 <script>
 (function(){
     var bp = document.createElement('script');
