@@ -62,6 +62,7 @@ excerpt:
   .result > h4 >a {
     font-size: 0.8em;
     margin-left: 0.3em;
+    color: green;
   }
 </style>
 
@@ -138,8 +139,11 @@ var query  = function(keyword){
               })
           })
           var biogridurl = "http://thebiogrid.org/search.php?search="+keyword+"&organism=all"
+          var geneurl = "http://www.ncbi.nlm.nih.gov/gene/?term=" + keyword
+          var biogrid = $("<a></a>").html("TheBioGrid").attr("href",biogridurl).attr('target','_blank')
+          var ncbigene = $("<a></a>").html("Gene").attr("href",geneurl).attr('target','_blank')
           $(".result").prepend(totalItem)
-          $(".result").prepend($("<h4></h4>").append($("<b></b>").html(keyword)).append($("<a></a>").html("TheBioGrid").attr("href",biogridurl).attr('target','_blank')))
+          $(".result").prepend($("<h4></h4>").append($("<b></b>").html(keyword)).append(biogrid).append(ncbigene))
         },
         async:false
     })
