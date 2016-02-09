@@ -131,7 +131,7 @@ var query  = function(keyword){
         type:'get',
         success:function(xmlDoc){
           var ids = $.trim($(xmlDoc).find('IdList').text()).split("\n")
-          var nn = $.trim($(xmlDoc).find('TermSet > Count').text())
+          var nn = $.trim($(xmlDoc).find('eSearchResult > Count').text())
           var totalItem = $("<ul></ul>").attr("id",keyword)
           $.each(ids,function(i,v){
               $.ajax({
