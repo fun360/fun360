@@ -20,7 +20,7 @@ layout: default
     <tr>
         <td></td>
         <td><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td>
-        <td>{{ post.date | date: "%Y年%m月%d日 %H:%M" }}</td>
+        <td>{{ post.date | date: "%Y年%m月%d日" }}</td>
         <td>{{ post.author }}</td>
     </tr>
     {% endfor %}
