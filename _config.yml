@@ -1,11 +1,9 @@
 # Site settings
-title: 大数据在线
+title: 娱乐360
 email: kehao.wu@gmail.com
-description: 原新浪博主Conda http://blog.sina.com.cn/wherefree。
+description: 传达最新娱乐资讯
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.how-to-code.info" # the base hostname & protocol for your site
-twitter_username: kehaow
-github_username: kehaowu
+url: "http://www.fun360.xyz" # the base hostname & protocol for your site
 permalink: none
 # Build settings
 markdown: kramdown
